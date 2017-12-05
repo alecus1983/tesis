@@ -1,0 +1,963 @@
+\documentclass[12pt, letterpaper]{report}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL tesis_version_4.tex   Mon Oct  2 23:35:28 2017
+%DIF ADD tesis_version_6.tex   Wed Oct 11 09:34:57 2017
+\usepackage[spanish, es-tabla]{babel}% coloca tabla en lugar de cudro en las tablas e idioma español.
+% Dimensiones y márgenes---------------------------------------------
+%DIF 4a4
+ %DIF > 
+%DIF -------
+\usepackage[total={18cm,21cm},top=4cm, left=2cm, right = 3 cm]{geometry}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault} 
+%\usepackage[T1]{fontenc}
+% Otros paquetes -----------------------------------------------------
+\usepackage{mathpazo} %fuente palatino
+\usepackage{graphicx} %paquete para gáficos
+%DIF 11c12
+%DIF < %\usepackage{xcolor}	%paquete para colores
+%DIF -------
+%\usepackage[usenames]{color}	%paquete para colores %DIF > 
+%DIF -------
+\usepackage{pstricks}	
+\usepackage[utf8]{inputenc}
+%\usepackage[shortlabels]{enumitem}
+% Referencias para graficos
+\usepackage{graphicx} % gráficos
+\usepackage{subfigure} % subgráficos
+% Referencias - ligas
+\usepackage[hyphens]{url}
+%DIF 20c21
+%DIF < \usepackage[breaklinks,colorlinks=true,linkcolor=red, citecolor=red, urlcolor=blue]{hyperref}
+%DIF -------
+\usepackage[breaklinks,colorlinks=true,linkcolor=black, citecolor=red, urlcolor=blue]{hyperref} %DIF > 
+%DIF -------
+%Paquetes adicionales de símbolos matemáticos
+\usepackage{amsmath,amssymb,cancel}% funciones matematicas ,amsfonts ,latexsym
+%Comandos ---------------------------------------------------------
+\usepackage{fix-cm} % Allows increasing the font size of specific fonts beyond 
+\usepackage{colortbl} % Comandos personales - especiales
+\usepackage{ multirow, array} % para las tablas
+\usepackage{float} % para usar [H]
+\usepackage{longtable} % para tablas largas
+%\pagestyle{empty}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{rotating}% paquete para rotar
+%DIF 33c34
+%DIF < 
+%DIF -------
+\usepackage{multicol} %DIF > 
+%DIF -------
+\usepackage{verbatim}
+%DIF 35a36-37
+\usepackage{sidecap} %DIF > 
+\usepackage{wrapfig} %DIF > 
+%DIF -------
+%\usepackage{html,makeidx}
+%\usepackage{cite}
+%\pagestyle{myheadings}% estilo de pagina propio
+%\markright{\rightmark} %\usepackage{fancyhdr}% para los estilos de encabezado y pie de pagina
+\pagestyle{fancy}% estilo de pagina
+%\fancyfoot[LE,RO]{\thepage}
+% cabecera y pie
+\lhead{Página \thepage } % texto izquierda de la cabecera
+%\chead{TEXTO} % texto centro de la cabecera
+%\rhead{\thepage} % número de página a la derecha
+\lfoot{} % texto izquierda del pie
+%\cfoot{\includegraphics[width = 1cm]{universidad.png} } % imagen centro del pie
+%\rfoot{ \textit{Maestria en Ingenieria con Énfasis en Ing. Eléctrica}} % texto derecha del pie
+%\renewcommand{\headrulewidth}{0.4pt} % grosor de la línea de la cabecera
+%\renewcommand{\footrulewidth}{0.4pt} % grosor de la línea del pie
+%LaTeX default specifications
+%more content to this template
+%DIF 52c55
+%DIF < 
+%DIF -------
+\usepackage{acronym} %definiciones de acronimos %DIF > 
+%DIF -------
+\definecolor{grey}{rgb}{0.9,0.9,0.9} % Color of the box surrounding the title - these values can be changed to give the box a different color	
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\title{tesis}
+\author{Alejandro Palacios Carabali.}
+\date{2017}
+%\tableofcontents
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%---------------------------------------------------------
+\thispagestyle{empty}% pagina no numerada	
+\colorbox{grey}{
+	\parbox[t]{1.0\linewidth}{
+		\centering \fontsize{20pt}{30pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+		\vspace*{0.7cm} % Space between the start of the title and the top of the grey box
+
+		\hfill \textbf{ ESTADO DEL ARTE}\\ 
+		\hfill \textbf{SOBRE }\\
+		\hfill \textbf{ESTRATEGIAS }\\
+		\hfill \textbf{PARA LA REGULACIÓN DE} \\
+		\hfill \textbf{VOLTAJE EN REDES DE } \\ 
+		\hfill \textbf{DISTRIBUCIÓN ELÉCTRICA } \\ 
+		\hfill \textbf{CON ALTO GRADO DE}\\
+		\hfill \textbf{GENERACIÓN }\\
+		\hfill \textbf{DISTRIBUIDA }\\
+		\hfill \textbf{RENOVABLE }\\
+		\par
+
+		\vspace*{0.7cm} % Space between the end of the title and the bottom of the grey box
+	}
+}
+
+%----------------------------------------------------------------------------------------
+
+\vfill % Space between the title box and author information
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR NAME AND INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\centering \large 
+\hfill Alejandro Palacios \\
+\hfill Universidad del Valle \\
+\hfill Escuela de Ingeniería Eléctrica y Electrónica \\
+\hfill Directores:\\
+\hfill Diego Fernando Echeverry\\
+\hfill Sandra Milena Londoño\\
+
+}
+%{1pt}} % Horizotal line, thickness changed here
+
+%----------------------------------------------------------------------------------------
+\sloppy
+
+\setlength{\parindent}{0cm}
+\DIFaddbegin 
+
+
+%DIF > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DIF > %%%%%%  TABLA DE CONTENIDO %%%%%%%%%%%%%%
+%DIF > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents %DIF >  indice de contenidos
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\DIFadd{Lista de figuras}} %DIF >  para que aparezca en el indice de contenidos
+\listoffigures %DIF >  indice de figuras
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\DIFadd{Lista de tablas}} %DIF >  para que aparezca en el indice de contenidos
+\listoftables %DIF >  indice de tablas
+%DIF > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DIF > %
+%DIF > %  Definicones de Acronimos
+%DIF > %
+%DIF > %
+%DIF > %
+
+
+\chapter*{Lista de Acrónimos}
+
+\addcontentsline{loc}{chapter}{\DIFadd{Lista de Acrónimos}}
+
+\begin{acronym}
+	\begin{multicols}{2}
+    \acro{ADA}{Advanced Distribution Automation}
+    \acro{AVC}{Automatic Voltage Control}
+	\acro{DG}{Distributed Generation}
+    \acro{DS}{Distribution System}
+    \acro{EES}{Energy Storage System}
+    \acro{EPS}{Electrical Power System}
+    \acro{FL}{Fuzzy Logic}
+    \acro{GA}{Genetic Algoritm}
+    \acro{LDC}{Load Drop Control}
+    \acro{LV}{Low Voltage}
+    \acro{MR}{Micro Redes}
+    \acro{OR}{Operador de Red}
+    \acro{RES}{Renaovable Energy Sources}
+    \acro{SG}{Smart Grid}
+    \acro{ST}{Smart Transformer}
+    \acro{SVC}{Static Var Compensator}
+    \acro{SVR}{Static Voltage Regulador}
+    \acro{OLTC}{On Load Tap Changer}    
+    \acro{PV}{Photovoltaic Generator}
+    \acro{UF}{usuarios finales}
+    \end{multicols}
+
+\end{acronym}
+
+%DIF > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DIFaddend \chapter*{INTRODUCCIÓN}
+Los \textit{sistemas de distribución eléctrica} (\DIFdelbegin \DIFdel{DS }\textit{\DIFdel{Distribution System}} %DIFAUXCMD
+\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend ) son la ultima etapa en el transporte de energía\DIFdelbegin \DIFdel{eléctrica  }\DIFdelend \DIFaddbegin \DIFadd{,  }\DIFaddend desde los generadores hasta los \DIFdelbegin \textit{\DIFdel{usuarios finales}} %DIFAUXCMD
+\DIFdelend \DIFaddbegin \ac{UF} \DIFaddend dentro del sistema eléctrico de potencia (\DIFdelbegin \DIFdel{EPS  }\textit{\DIFdel{electrical power system}}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \ac{EPS}\DIFaddend ) \cite{basso2004ieee}. La electricidad transportada a través de los \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend en las dos décadas anteriores se ha caracterizado por provenir en mayor grado \DIFaddbegin \DIFadd{de }\DIFaddend fuentes hidráulicas, nucleares y  fósiles ( como carbón, petroleo, gas, etc) \cite{Bacha2015}. Estas ultimas \DIFaddbegin \DIFadd{fuentes de energía, }\DIFaddend al ser empleadas tanto para la generación eléctrica como en es sector del transporte \cite{Bahmanifirouzi2012}\DIFaddbegin \DIFadd{, }\DIFaddend han traído como consecuencia un incremento del calentamiento global a raíz  de los gases de efecto invernadero que se liberan en  su proceso de combustión  \cite{Hauck2017}.\\\\
+Como respuesta a esta problemática en los años recientes se ha dado  paso al incremento de la generación a pequeña  escala instalada dentro del \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend conocida como generación distribuida  \DIFdelbegin \DIFdel{(DG }\textit{\DIFdel{Distributed Generation}}%DIFAUXCMD
+\DIFdel{) }\DIFdelend \DIFaddbegin \ac{DG} \DIFaddend ya sea de carácter renovable   \DIFdelbegin \DIFdel{(Renewable Energy Sources RES) }\DIFdelend \DIFaddbegin \ac{RES} \DIFaddend como la fotovoltaica, solar térmica, eólica, biomasa y micro turbinas hidráulicas  \cite{Calderaro2014} o no renovable. \DIFdelbegin \DIFdel{Algunas de estas fuentes renovables son intermitentes }\DIFdelend \DIFaddbegin \\\\
+\DIFadd{Esta nueva red que contiene fuentes de }\ac{DG}\DIFadd{, en la cual aparecen intercambios de potencia bi direccionales  e implementa funcionalidades inteligentes,  haciendo uso  o no de una una infraestructura de telecomunicaciones, para lograr la adaptabilidad se conoce como }\ac{SG} \DIFadd{\mbox{%DIFAUXCMD
+\cite{Bhatt2014}}%DIFAUXCMD
+.}\\\\ 
+\DIFadd{Dado este contexto la }\ac{DG} \DIFadd{puede funcionar  en conjunto con  algunas cargas para suplir su demanda, ya sea de manera total o  parcial. Cuando ocurre de manera total se da lugar a  un muevo escenario dentro de las }\ac{SG}  \DIFadd{conocido como }\ac{MR} \DIFadd{\mbox{%DIFAUXCMD
+\cite{Pegueroles-Queralt2012}}%DIFAUXCMD
+, las cuales son redes eléctricas en pequeña escala  con niveles de tensión de distribución ($\leq$ 20 kV)  y potencias menores a 1MW ( por lo general) \mbox{%DIFAUXCMD
+\cite{Bacha2015}}%DIFAUXCMD
+, pudiendo operar de manera autónoma o  conectada al }\ac{DS}\DIFadd{. Estas }\ac{MR} \DIFadd{suelen también  tener elementos de almacenamiento de energía conocidos como }\ac{EES} \DIFadd{con el fin de lograr funcionalidades autonomía, estabilidad  y calidad de energía.  \mbox{%DIFAUXCMD
+\cite{Babacan2017} }%DIFAUXCMD
+\mbox{%DIFAUXCMD
+\cite{Pegueroles-Queralt2012}}%DIFAUXCMD
+.}\\\\ 
+\DIFadd{Tanto en la operación de las  }\ac{MR} \DIFadd{como dentro de los }\ac{DS}\DIFadd{, estos }\ac{RES}  \DIFadd{al inyectar potencia  al }\ac{DS}  \DIFadd{generan a través de  él  una elevación de tensión \mbox{%DIFAUXCMD
+\cite{GSGF2015} }%DIFAUXCMD
+como lo muestra la figura \ref{fig:ejemplo_control_de_tension}; esta elevación de tensión es en proporción a la potencia inyectada por la }\ac{DG} \DIFadd{, en el caso  de la figura \ref{fig:ejemplo_control_de_tension} con generadores tipo fotovoltaicos  (}\ac{PV}\DIFadd{). Esta situación es contraria al caso clásico en donde no hay }\ac{DG} \DIFadd{( consumer ) y la tensión va disminuyendo desde la subestación eléctrica del OR hasta las instalaciones del usuario final }\ac{UF}\DIFadd{. Esta desviación de tensión  dependerá principalmente de la magnitud de los flujos de potencia bidireccionales \mbox{%DIFAUXCMD
+\cite{Koutsoukis2017}}%DIFAUXCMD
+, la ubicación de la }\ac{DG} \DIFadd{\mbox{%DIFAUXCMD
+\cite{Othman2016a}}%DIFAUXCMD
+, la topologia de la red y las impedancias del }\ac{DS} \DIFadd{.}\\\\
+\DIFadd{Sumado a esto se debe tener en cuenta que algunas de las }\ac{DG} \DIFadd{como la }\ac{PV} \DIFadd{y la eólica,tienen un carácter  intermitente }\DIFaddend y su generación \DIFdelbegin \DIFdel{depende de condiciones ambientales }\DIFdelend \DIFaddbegin \DIFadd{de energía  es afectado por  las condiciones ambientales (principalmente climáticas) }\DIFaddend \cite{Mahmud2016}. Esto causa problemas de estabilidad, confiabilidad, aumento en las perdidas y mala \textit{calidad de energía} \cite{Karanki2014}\cite{DinakaraPrasadReddy2017}.\\\\
+\DIFaddbegin 
+
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.7\linewidth]{imagenes/ejemplo_control_de_tension}
+ 	\caption{\DIFaddFL{Concepto de incremento de tensión en los sistemas de distribución \mbox{%DIFAUXCMD
+\cite{GSGF2015} }%DIFAUXCMD
+}}
+ 	\label{fig:ejemplo_control_de_tension}
+ \end{figure}
+
+\DIFaddend Entre los parámetros más importantes de  calidad de la energía se encuentra el \textit{nivel de tensión}\DIFdelbegin \DIFdel{, el cual se ve afectado por los flujos de potencia bidireccionales \mbox{%DIFAUXCMD
+\cite{Koutsoukis2017}}%DIFAUXCMD
+, la ubicación de la GD \mbox{%DIFAUXCMD
+\cite{Othman2016a}}%DIFAUXCMD
+, la topologia de la red y las impedancias del DS . En }\DIFdelend \DIFaddbegin \DIFadd{. Cuando el nivel de tensión se encuentra fuera del }\textit{\DIFadd{rango permitido}} \DIFadd{ocasiona daños en los las cargas principalmente las que tienen un alto componente electrónico \mbox{%DIFAUXCMD
+\cite{baggini2008handbook}}%DIFAUXCMD
+.}\\\\
+\DIFadd{Para dar solución a esta problemática los operadores de red OR clasicamente han implementado esquemas basados en cambiadores de taps en los transformadores (}\ac{OLTC}\DIFadd{)  y bancos de condensadores \mbox{%DIFAUXCMD
+\cite{Acha2002a}}%DIFAUXCMD
+\mbox{%DIFAUXCMD
+\cite{Bisanovic2014}}%DIFAUXCMD
+, comandados ya sea de forma manual o automática para responder a los cambios en la tensión provocados por la demanda \mbox{%DIFAUXCMD
+\cite{Gubina2001}}%DIFAUXCMD
+. En un escenario con }\ac{DG} \DIFadd{se deben replantear estos esquemas de control de tensión \mbox{%DIFAUXCMD
+\cite{Yadav2014} }%DIFAUXCMD
+que le permitan a los }\ac{OR} \DIFadd{mantener el nivel de tensión en los rangos permitidos. Por tanto }\DIFaddend este trabajo se \DIFdelbegin \DIFdel{abarcan }\DIFdelend \DIFaddbegin \DIFadd{realizara una revisión  de  }\DIFaddend las soluciones mas destacadas  para realizar el control de la tensión en un \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend cuando hay presencia de \DIFdelbegin \DIFdel{DG de tipo RES}\DIFdelend \DIFaddbegin \ac{DG} \DIFadd{de tipo }\ac{RES}\DIFaddend . \\\\
+\DIFaddbegin \DIFadd{La metodología de investigación es del tipo }\textit{\DIFadd{correlacional}}\DIFadd{, está parte  de realizar un estudio }\emph{\DIFadd{descriptivo}} \DIFadd{del fenómeno,  explorando sus contenidos  y  evaluando  sus tópicos de manera analítica. Una vez obtenido  esto  se pasa a un trabajo comparativo  en el cual se establecen las    }\textit{\DIFadd{relaciones}} \DIFadd{que describan de modo cualitativo y/o cuantitativo  el tema en estudio . La técnica a emplear en este trabajo sera el }\textit{\DIFadd{análisis documental}} \DIFadd{que buscan describir y representar los documentos de forma unificada sistemática para facilitar su recuperación.}\\
+\DIFadd{En el capitulo  \ref{cap:teorico} se hace referencia  a los principales conceptos necesarios para abordar la investigación, el capitulo \ref{cap:clasificacion} se realiza una caracterización de las  fuentes bibliográficas a partir de unos }\textit{\DIFadd{criterios documentales}} \DIFadd{o temáticas de investigación,  el capitulo \ref{cap:documental}  se realiza un análisis de las temáticas escogidas como }\textit{\DIFadd{criterios de análisis }}\DIFadd{, para finalmente en capitulo  realizar  la perspectiva trazada por el autor sobre este tema.
+}\DIFaddend 
+
+\chapter{MARCO TEÓRICO}
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{cap:teorico}
+\DIFaddend \section{\DIFdelbegin \DIFdel{CAIDA }\DIFdelend \DIFaddbegin \DIFadd{CAÍDA }\DIFaddend DE TENSIÓN CON GENERACIÓN DISTRIBUIDA}
+Con el crecimiento de la \DIFdelbegin \DIFdel{GD }\DIFdelend \DIFaddbegin \ac{DG} \DIFaddend \cite{Cao2016} en los \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend se ha dado lugar a la aparición de flujos de potencia inversos ( \DIFaddbegin \DIFadd{es decir }\DIFaddend desde la carga hacia el \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend ) lo cual, acompañado por los altos valores en la relación R/X (resistencia reactancia) \DIFdelbegin \DIFdel{principalmente en }\DIFdelend \DIFaddbegin \DIFadd{que caracteriza principalmente a }\DIFaddend los circuitos de \DIFdelbegin \DIFdel{LV}\DIFdelend \DIFaddbegin \ac{LV}\DIFaddend , dan lugar a la aparición de sobre tensiones en los nodos del  \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend \cite{su2009comparative}\cite{Tang2017}.\\
+\DIFaddbegin 
+
+\begin{wrapfigure}{O}{8 cm}
+	\begin{center}
+		\caption{\DIFadd{Diagrama unifilar de una red simplificada}}
+		\label{fig:dos_nodos}
+		\includegraphics[width=0.6\linewidth]{imagenes/cap_1/dos_nodos}
+	\end{center}	
+\end{wrapfigure}
+
+\DIFaddend Para ilustrar este fenómeno se parte  del diagrama unifilar de la figura \ref{fig:dos_nodos} en el que se representan las características básicas de un sistema de potencia con \DIFdelbegin \DIFdel{GD}\DIFdelend \DIFaddbegin \ac{DG}\DIFaddend . Este esta conformado por la carga que demanda una potencia $P_{L}+jQ_{L}$, la DG que genera o absorbe una potencia $P_{DG}\pm jQ_{DG}$,  la compensación reactiva que inyecta o absorbe una potencia $\pm jQ_{C}$, la impedancia de linea $R+jX$,  los nodos $V_{i} $ de entrada y $V_{DG}$ en la carga y el equivalente de red del sistema.\\
+\DIFdelbegin %DIFDELCMD < \begin{figure}[H]
+%DIFDELCMD <     \centering
+%DIFDELCMD <     %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Diagrama unifilar de una red simplificada}}
+    %DIFAUXCMD
+%DIFDELCMD < \label{fig:dos_nodos}
+%DIFDELCMD <     \includegraphics[width=0.2\linewidth]{imagenes/cap_1/dos_nodos}
+%DIFDELCMD < \end{figure}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin 
+
+\DIFaddend De acuerdo a la definición de potencia compleja se tiene la siguiente expresión \cite{Akagi2017}:\DIFaddbegin \\
+\DIFaddend 
+
+\begin{equation}
+\label{equ:comp}
+P + jQ = V_{DG} \cdot I_{l}^{*}
+\end{equation}
+\DIFaddbegin 
+
+\DIFaddend De la ecuación \ref{equ:comp}  se puede obtener  la corriente de línea en función de la potencia activa y reactiva :
+
+\begin{equation}
+I_{l}= \dfrac{P + jQ}{\overrightarrow{V_{DG}^{*}}}
+\label{eq:corriente}
+\end{equation}
+
+Aplicando el la ley de \textit{ Kirchoff } de tensiones en el nono  $V_{GD}$, este  puede ser expresado como:\\\\
+\begin{equation}
+\label{equ:volt_gd}
+\overrightarrow{V_{DG}}= \overrightarrow{V_{i}} + I_{l}(R + X_{L})
+\end{equation}
+
+Remplazando $ I_{l} $ de  la ecuación \ref{eq:corriente} en la ecuación  \ref{equ:volt_gd} se tiene:
+
+\[\overrightarrow{V_{DG}}= \overrightarrow{V_{i}} + \dfrac{P + jQ}{\overrightarrow{V_{DG}^{*}}}(R + X_{L})\]
+\DIFaddbegin 
+
+\DIFaddend \begin{equation}
+\overrightarrow{V_{DG}}= \overrightarrow{V_{i}} + \dfrac{RP + X_{l}Q}{\overrightarrow{V_{DG}^{*}}} + j\dfrac{RP - X_{l}Q }{\overrightarrow{V_{DG}^{*}}}
+\end{equation}
+
+Cuando el ángulo entre los fasores de tensión  $V_{DG}$  y $V_{l}$ es pequeño, es decir cuando la potencia activa entregada por el \DIFdelbegin \DIFdel{$DS$ }\DIFdelend \DIFaddbegin \DIFadd{DS }\DIFaddend tiende a cero \cite{Akagi2017} (  esto puede darse porque no hay demanda de energía o la $DG$ abastece la demanda de la carga en una condición de auto consumo de los usuarios o de la micro red), y si además de ello se considera el voltaje en el nodo $V_{DG}$ como referencia fasorial (ángulo 0) la caída de tensión en la línea puede ser escrita como:\\\\
+\begin{equation}
+\Delta\ V \cong V_{DG} - V_{i}\cong \dfrac{RP - X_{l}Q }{V_{DG}}
+\label{eq:delta} 
+\end{equation}
+Donde, $\Delta V$ es la caída de tensión a través del alimentador. Si también asumimos que la tensión en el nodo  $V_{DG}$  es la tensión base, entonces podemos reescribir la ecuación \ref{eq:delta} como:\\\\
+\begin{equation}
+\Delta\ V \cong V_{DG} - V_{i}\cong RP - X_{l}Q 
+\label{eq:delta1} 
+\end{equation}
+Donde $P=(P_{DG}-P_{L})$  y  $ Q = (\pm Q_{DG} \pm Q_{c} - Q_{L})$.\\\\
+De este modo la ecuación \ref{eq:delta1} puede ser reescrita así:
+
+\begin{equation}
+V_{DG} \cong V_{i} + R (P_{DG} - P_{L}) + X(\pm Q_{DG} \pm Q_{c} - Q_{L})
+\label{eq:voltajeds}
+\end{equation}
+De este modo  de la ecuación \ref{eq:voltajeds} se puede determinar  el nivel máximo de generación que puede  albergar un circuito.\\\\
+Para tal caso se plantean dos escenarios críticos en los cuales se presentan las máximas desviaciones de tensión \cite{Elkhatib2011a}:\\\\
+
+\DIFaddbegin \begin{table}[h]
+	\centering
+	\caption{\DIFaddFL{Escenarios de tensión }}
+	\label{tab:escenarios_v}
+	\vspace{0.5 cm}
+\DIFaddendFL \begin{tabular}{|c|c|c|}
+    \hline 
+    Caso 	& Carga 	& Generación \\\hline
+    1 		& Mínima	& Máxima \\\hline
+    2		& Máxima	& \DIFdelbeginFL \DIFdelFL{Máxima }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Mínima }\DIFaddendFL \\
+    \hline
+\end{tabular}
+\DIFaddbeginFL \end{table}
+\DIFaddend 
+
+\subsection{Caso crítico \DIFdelbegin \DIFdel{( }\DIFdelend carga mínima  y máxima generación \DIFdelbegin \DIFdel{) }\DIFdelend }
+Se considera este primer escenario en el cual la demanda de la carga es mínima, por ejemplo  para una carga residencial típica  esto es  en las horas de la madrugada. La otra condición de máxima generación se presenta por ejemplo para fuentes fotovoltaicas  en el medio día,  con lo cual se podría tener que para un caso típico de carga residencial con generación fotovoltaica esta condición se alcanzaría en medio día.\\\\
+Esto se puede  cuantificar a partir de la ecuación \ref{eq:voltajeds} se tenga un factor de potencia igual a uno  en el nodo  $V_{DG}$, entonces se puede deducir que la máxima tensión en este nodo se obtiene cuando hay la mínima carga ($P_{L} = 0$ , $Q_{L} = 0$ )  y la generación máxima ($P_{G} = P_{GMAX}$). En estas condiciones el OR puede operar incluso sin que exista generación distribuida. la tensión en el nodo $V_{DG}$, queda determinado entonces por la ecuación \ref{eq:voltajeds} así \cite{strbac2002integration} :\\\\
+\begin{equation}
+V_{DG} = V_{i} + P_{GMAX}
+\label{eq:vgmax}
+\end{equation}
+
+
+\begin{tabular}{l c r}
+    & &\\
+    Donde:& & \\
+    & &\\
+    & $P_{GMAX}$ & Es la potencia máxima permisible en el \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend .\\
+    & &\\
+    & &\\
+\end{tabular}\\\\
+En estas condiciones la potencia máxima permisible en el sistema es :\\\\
+\begin{equation}
+P_{GMAX} \leq \frac{V_{DGMAX} - V_{i}}{R}
+\label{eq:pgmax}
+\end{equation}
+\begin{tabular}{l c r}
+    & &\\
+    Donde:& & \\
+    & &\\
+    & $V_{DGMAX}$ & Es la tensión máxima permisible en el \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend .\\
+    & &\\
+    & &\\
+\end{tabular}\\\\
+Se puede notar en la ecuación \ref{eq:pgmax} la potencia máxima generada es función de la resistencia de línea, de modo tal que la resistencia de la linea ( que depende del calibre del conductor y la longitud ) determina la máxima potencia que puede ser inyectada al sistema.\\
+\subsection{Caso critico máxima carga y mínima generación }
+Se considera este segundo escenario en el cual la demanda es alta , por ejemplo  para una carga residencial típica  esto es  en el inicio de la noche o iniciando la mañana y ademas la generación producida por los diferentes \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend es baja.\\\\
+Considerando igualmente un factor de potencia unitario por tanto la ecuación \ref{eq:voltajeds} puede ser  escrita para este caso así:
+
+\[V_{DG} = V_{i} - RP_{Lmax}\]
+
+O
+
+\[P_{Lmax} = \dfrac{V_{i} - V_{DG }}{R}\]
+
+Consideremos ahora que $V_{DGmin}$ es el mínimo voltaje permisible en el \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend . Por tanto para mantener el voltaje bajo los limites permisibles  se debe cumplir que:
+
+\[P_{Lmax} \leq \dfrac{V_{i} - V_{DGmin}}{R}\]
+
+\subsection{Dependencia del factor R/X}
+Otro indicador importante al momento de establecer el control de tensión es el factor $ R/X$ del equivalente de red, donde $R$  y $X$ son respectivamente la resistencia y la reactancia  \textit{Thevenin} del \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend en el nodo $V_{GD}$.    Para \textit{valores bajos} del parámetro $R/X$ ( es decir donde el equivalente de red es principalmente reactivo ) la potencia activa tiene muy poca  influencia en los perfiles de tensión, mientras conforme el parámetro $R/X$ crece, el efecto de la potencia activa sobre las tensiones es mas determinante. Dicho de otro modo, en \textit{media tensión } y baja tensión la inyección de potencia activa por parte de la GD provoca aumentos de la tensión en el PCC.\\\\
+De algún modo este efecto de la potencia activa en los niveles de tensión debe ser mantener la tensión en el punto de nominal compensado mediante la absorción de potencia reactiva para devolver los niveles de tensión a su condición de diseño.\\\\
+La potencia reactiva necesaria para mantener la tensión en el nodo $ V_{DG}$ ( figura \DIFdelbegin \DIFdel{\ref{u}}\DIFdelend \DIFaddbegin \DIFadd{\ref{fig:dos_nodos}}\DIFaddend ), en cuanto mayor es el parámetro $R/X$ es necesario absorber una mayor cantidad de potencia reactiva  para mantener la tensión en el PCC. Nótese que en redes de media tensión ($R/X$ alrededor de la unidad) la cantidad de  reactiva necesaria para compensar el efecto de la potencia activa es 2 a 1. \cite{trebolle2012control}.
+
+\section{ELEMENTOS DE CONTROL DE TENSIÓN}
+
+ \subsection{\DIFdelbegin \DIFdel{CAMBIADOR DE TAPS BAJO CARGA ( ON LOAD TAP CHANGER }\textit{\DIFdel{OLTC}}%DIFAUXCMD
+\DIFdel{)}\DIFdelend \DIFaddbegin \DIFadd{Cambiador de Taps bajo Carga}\DIFaddend }
+El cambiador de tomas bajo carga \DIFdelbegin \DIFdel{( OLTC por sus siglas en ingles) }\DIFdelend \DIFaddbegin \ac{OLTC} \DIFaddend es un equipo  \DIFdelbegin \DIFdel{culla funcion }\DIFdelend \DIFaddbegin \DIFadd{cuya función }\DIFaddend es conmutar las conexiones de derivación del devanado de un transformador ( puede estar el primario o en el secundario) en estado energizado o en carga, estos son diseñados bajo los criterios de la norma IEC 60214-1 \cite{IEC60214}.
+El equipo encargado de del operar el \DIFdelbegin \DIFdel{OLTC }\DIFdelend \DIFaddbegin \ac{OLTC} \DIFaddend es conocido como \DIFdelbegin \DIFdel{AVG (}\textit{\DIFdel{Automatic Voltage Control}}%DIFAUXCMD
+\DIFdel{)}\DIFdelend \DIFaddbegin \ac{AVC}\DIFaddend , el cual conmuta las sus derivaciones del transformador de acuerdo a la desviación que se presente con respecto al la tensión de referencia o tensión objetivo, esto se puede ilustrar en la figura \ref{fig:esqusema_LDC} \cite{Sarimuthu2016}. Este control debe asegurarse que el voltaje se encentre siempre por encima del nivel mínimo de tensión el cual decrece a lo largo del circuito \cite{Sarimuthu2016} para el caso de un circuito radial sin DG. Las  mediciones realizadas en la figura \ref{fig:esqusema_LDC} son usadas para calcular la caída de tensión en el nodo remoto, esta técnica es conocida como \DIFdelbegin \DIFdel{LDC (}\textit{\DIFdel{Load Drop Control}}%DIFAUXCMD
+\DIFdel{)}\DIFdelend \DIFaddbegin \ac{LDC}\DIFaddend .\\\\
+
+\DIFdelbegin %DIFDELCMD < \begin{figure}[h]
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \begin{SCfigure}[\sidecaptionrelwidth][!hb]
+\DIFaddendFL \centering
+\caption{Esquema de controlador para OLTC con LDC \cite{Sarimuthu2016}}
+\label{fig:esqusema_LDC}
+\DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.7\linewidth]{imagenes/cap_2/LDC}
+%DIFDELCMD < \end{figure}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \includegraphics[width=8cm]{imagenes/cap_2/LDC}
+\end{SCfigure}
+\DIFaddend 
+
+\begin{comment}
+El LDC emplea la para su operación una señal de voltaje  y otra de corriente con la cual  simula la caída de tensión (\textit{voltage drop})  en los parámetros internos R  y X \cite{Sarimuthu2016}. Una vez obtenido este valor  se compara con el ajuste deseado y de acuerdo al esquema de operación se aumenta disminuye o mantiene igual el tap del  transformador, tras esperar un tiempo de retardo ( \textit{time delay} ). El tiempo de retardo ( \textit{time delay} ) inicial esta alrededor de 10  a 120 s y el requerido entre cada paso  es de 5 a 60s  \cite{Sarimuthu2016}.\\\\
+
+\paragraph{Coordinación en Tiempo}
+En un sistema de potencia típico existen diversos AVG operando  en diversos niveles de tensión, lo cual hace que si operan de manera simultanea el sistema se comporte de manera inestable \cite{Sarimuthu2016}, por tanto  se hace necesario  establecer un esquema de coordinación entre los AVG. Esta coordinación debe realizarse de modo tal que el AVG aguas arriba tenga la prioridad  frente al que opera aguas abajo (en un menor nivel de tensión).
+Este esquema puede implementarse por dos vías, una es ajustando  un retardo en el tiempo ( \textit{time delay})de conmutación del AVG o implementando una red de comunicación entre los dispositivos operados aguas arriba y aguas abajo, sin embargo esta ultima solución resulta costosa y presenta fallos tras presentarse anomalías en la comunicación \cite{Sarimuthu2016}. Por ello se emplean preferiblemente esquemas temporizados que incluyan las excepciones  de prioridad como las zonas de banda muerta en la operación del AVG \cite{Sarimuthu2016}.\\\\
+\paragraph{Coordinación Maestro-Esclavo}
+Este esquema opera con transformadores conectados en paralelo,  entonces el transformador maestro ajusta el tap en la posición deseada  y el transformador o transformadores esclavos se ajustan a la misma posición \cite{Fila2007}\cite{Sarimuthu2016}. 
+\paragraph{Coordinación por método de circulación de corriente} 
+Cuando dos transformadores son conectados en paralelo como se muestra en la figura \ref{fig:paralelo}, aparece una  corriente $I_{c}$ dado que la impedancia equivalente de cada transformador no es exactamente la misma \cite{Fila2007}.\\\\
+\begin{figure}[h]
+\centering
+\caption{Control de tensión de transformadores en paralelo con OLTC}
+\label{fig:paralelo}
+\includegraphics[width=0.7\linewidth]{imagenes/cap_2/paralelo}
+\end{figure}
+Esta corriente  de circulación esta dada por:\\\\
+\begin{equation}
+  \label{eq:icir}
+I_{cir} = \dfrac{I_{T1} - I_{T2}}{2} 
+\end{equation}
+Para el transformador con el tap más alto $I_{c}$ es positiva, mientras que para el  otro es negativa. Cada uno AVC asociado a un transformador emplea un sistema de comunicación para conocer el valor de la corriente del otro. Esta corriente $I_{c}$ es convertida en cada uno de los AVC en una tensión de ajuste.
+\paragraph{Coordinación por medio de la reactancia negativa}
+En este esquema los transformadores en paralelo parten del mismo tap, cambiando solamente el signo del parámetro reactancia dentro del AVC.La principal ventaja de este método es que no requiere de comunicación en entre los AVC.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{imagenes/cap_2/diagrama_fasorial_nrc}
+\caption{Diagrama fasorial NRC}
+\label{fig:diagrama_fasorial_nrc}
+\end{figure}
+Para explicar el funcionamiento del NRC, se muestra el diagrama fasorial de la figura \ref{fig:diagrama_fasorial_nrc}, en esta el transformador T1 tiene una posición más alta en el tap por lo que la corriente fluye desde el T1 al T2\cite{Sarimuthu2016}. Debido a la corriente de circulación ($I_{cir}$) las corrientes $I_{T1}$ e $I_{T2}$  están desfasadas. En cada AVC es computado el valor $I_{T} \bullet Z_{NRC}$ como una caída de tensión la cual se suma con el ajuste de tensión objetivo $V_{T}$ para obtener la tensión para cada AVC $V_{AVCT}$. Si esta tensión es superior a la tensión de referencia $V_{T}$, entonces es decrementada  la posición del tap \cite{Sarimuthu2016}.
+
+\paragraph{Coordinación por medio de TAPP}
+El esquema TAPP (\textit{Transformer Automatic Paralleling Package}) es basado en NRC \cite{Fila2007}, 
+
+\begin{table}
+
+	\caption{Ventajas y desventajas del uso de los diferentes métodos de control del AVC con OLTC}
+	\begin{tabular}{|l|m{6 cm}|m{6 cm}|}
+		\hline 
+		& Ventajas & Desventajas \\ 
+		\hline 
+		\multirow {3} {3 cm}{Maestro Esclavo} 
+		 & Usa LDC \cite{Fila2007} & Requiere que los transformadores tengan las mismas caracteristicas (tensión de cortocircuito,  impedancia de corto ) \cite{Fila2007} \\ 
+		\cline{2-3}
+		&Opera con factor de potencia variable& Requiere la conexión entre los AVR \cite{Fila2007} \\\cline{2-3}
+		&Opera con flujo de potencia inverso \cite{Fila2007}&En caso de falla de un tranformador se requiere realizar reconexión de los AVR \cite{Fila2007}\\\cline{2-3}
+		&Opera con generación distribuida \cite{Fila2007}&\\
+		\hline
+		\multirow {3} {3 cm}{ Circulación de Corriente}&  & Presenta dificultad para operar con transformadores en paralelo a travez de la red ( subestaciones en anillo) \\\cline{2-3}
+		& &Necesidasd de reconectar el AVR cuando uno de los transformadores sale de servicio \\\cline{2-3}
+		& & Los transformadores deben de ser similares\\
+		\hline 
+		\multirow {3} {3 cm}{ Reactancia Negativa}& No requiere la conexión entre los AVR \cite{Fila2007} & Require el ajuste del factor de potencia en un rango esperado \cite{Fila2007} \\\cline{2-3}
+		& Pueden conectarse transformadores en paralelo de distintas caracteristicas a travez de la red \cite{Fila2007} & Require que se ajuste con presición $Z_{NRC}$ \\\cline{2-3} 
+		& & Es sencible a la precenia de DG \cite{Fila2007} \\
+		\hline 
+		TTPP&  &  \\ 
+		\hline 
+	\end{tabular} 
+\end{table} 
+\end{comment}
+
+\DIFdelbegin \section{\DIFdel{REGULADOR DE TENSIÓN}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Regulador de Tensión}}
+\DIFaddend Otro dispositivo similar al este es el \DIFdelbegin \DIFdel{SRV ( }\textit{\DIFdel{Step Regulator Voltage}}%DIFAUXCMD
+\DIFdel{) }\section{\DIFdel{CONVERSORES DE POTENCIA}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \ac{SVR} \DIFadd{el cual consiste en un auto transformador con un cambiador de taps  bajo carga \mbox{%DIFAUXCMD
+\cite{Vkdulqj}}%DIFAUXCMD
+. Por lo general son diseñados para regular la tensión en rangos de $\pm 10 \%$ de la tensión nominal en 32 pasos \mbox{%DIFAUXCMD
+\cite{kersting2009modeling} }%DIFAUXCMD
+\mbox{%DIFAUXCMD
+\cite{farag2012incorporating}}%DIFAUXCMD
+. La norma ANSI/IEEE C57.15 establece dos rangos de tensión para la operación, uno en estado normal ( rango A) y otro en estado de contingencia ( rango B).
+}
+
+\begin{figure}[H]
+
+\centering
+\subfigure[ Diagrama interno del \ac{SVR} \cite{Oshiro2011a}]{\includegraphics[width=5cm]{imagenes/cap_2/regulador}}
+\DIFaddFL{\hspace{5mm}
+}\hfill
+\subfigure[Control de caida de tensión \ac{LDC} basado en \ac{SVR} \cite{Vkdulqj} \label{fig:ldc_svr}]{\includegraphics[width=10cm]{imagenes/cap_2/LDC_SVR}}
+\caption{\DIFaddFL{Esquema del regulador de tensión}}
+\label{fig:regulador}
+
+\end{figure}
+
+\DIFadd{La posición del }\ac{SVR} \DIFadd{es  controlada  mediante el esquema de }\ac{LDC} \DIFadd{similar mente al }\ac{OLTC}\DIFadd{. Dado esto como se muestra en la figura \ref{fig:ldc_svr} el controlador  debe de conocer la impedancia del sistema ( }\textit{\DIFadd{distribution fider}}\DIFadd{) para ajustar la tensión en el nodo remoto ( }\textit{\DIFadd{target point}}\DIFadd{) \mbox{%DIFAUXCMD
+\cite{Vkdulqj}}%DIFAUXCMD
+.
+}\DIFaddend \subsection{\DIFdelbegin \DIFdel{Inversores}\DIFdelend \DIFaddbegin \DIFadd{Compensador de Var Sincrono}\DIFaddend }
+\DIFaddbegin 
+
+\subsection{\DIFadd{Generadores Fotovoltaicos }}
+
+\DIFadd{Los generadores fotovoltaicos }\ac{PV} \DIFadd{se caracterizan por inyectar corriente 
+}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{imagenes/cap_1/sistemas_solares}
+\caption{\DIFaddFL{Variedad de fuentes fotovoltaicas}}
+\label{fig:sistemas_solares}
+\end{figure}
+
+\subsection{\DIFadd{Transformador inteligente (Small Transformer)}}
+\DIFadd{El transformador inteligente o }\ac{ST} \DIFadd{\mbox{%DIFAUXCMD
+\cite{Colak2015}
+}%DIFAUXCMD
+}
+
+
+\subsection{\DIFadd{Convertidores de Potencia}}
+
+\subsubsection{\DIFadd{Inversores}}
+
+\DIFadd{Existen dos métodos de control básicos para los inversores: control en cascada y
+control del estado-espacio (}\textit{\DIFadd{state-space}}\DIFadd{) \mbox{%DIFAUXCMD
+\cite{Bacha2015}}%DIFAUXCMD
+. La figura \ref{fig:tensionpv} muestra el esquema de control básico de un inversor modular monofásico, que también se puede utilizar  para un inversor trifásico (empleando tres módulos). Los bloques verdes muestran el hardware de la electrónica de potencia, los bloques azules muestran los dispositivos de medición de corrientes y tensiones, y los bloques rojos muestran las partes del controlador en cascada.
+Si el interruptor está en la posición 1, el inversor funciona como una fuente de corriente para alimentación de red. El MPPT (maximum
+power point tracking) calcula el punto de ajuste para la tensión continua el cual alimenta a un control  proporcional-integral . Dado que la salida del controlador de voltaje de corriente continua es un punto de consigna de CC, para el valor RMS de la corriente alterna, se debe multiplicar con la tensión de corriente alterna normalizada y filtrada para obtener un punto de consigna de corriente alterna.
+Si el interruptor está en la posición 2, el inversor funciona como una fuente de voltaje para el modo de isla. El punto de ajuste para la tensión de alterna se calcula con el microcontrolador o procesador de señal digital. Un controlador de compensación de DC especial controla el desplazamiento de CC de la tensión de CA a cero. \mbox{%DIFAUXCMD
+\cite{Burger2001a}}%DIFAUXCMD
+, que controla el valor RMS de la tensión alterna. Si varios inversores están conectados en paralelo en una microgrid isla, pueden usarse controladores adicionales para calcular los puntos de ajuste de la tensión y la frecuencia de CA \mbox{%DIFAUXCMD
+\cite{Bacha2015} }%DIFAUXCMD
+.
+}\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{imagenes/tension_pv}
+\caption{\DIFaddFL{Esquema de control básico de un inversor conectado a una red monofásica (switch en posición 1) y la operación en modo isla (switch en posición 2). Las características del inversor aparecen en color verde , los elementos de medida en color azul, y los controladores en cascada en color rojo.\mbox{%DIFAUXCMD
+\cite{Bacha2015}}%DIFAUXCMD
+}}
+\label{fig:tensionpv}
+\end{figure}
+
+\DIFaddend \subsection{Conversores back to back}
+
+\begin{comment}
+
+%reactive power control of capacitor bank using changes in
+%reactance of connected reactor vary their demand for reactive power
+%voltage regulation, power-factor correction and reactive power compensation
+%voltage profile and reduction of power losses.
+% loads that vary their demand for reactive power 
+% the variation in demand for reactive powercauses variation in the voltage at the supply point that can interfere with the efficient operation of supply network
+%resonance problems is to install large capacitor banks at the main bus.
+% In these applications mechanically switched capacitor banks  are the most economical reactive power compensation resource
+%no effect on the short-circuit power and low-cost, but low-speed solution for voltage control
+%  capacitor banks as smooth output or output in very small blocks.
+% minimal number of switches and become very rational
+%  selection of the optimal size and allocation of capacitor banks.
+% unbalanced distribution systems is presented. This method dynamically coordinates between voltage and reactive power generation and consumption to keep the bus voltages close to their nominal value
+% The static VAr compensator  thyristor-switched capacitors (TSC),  thyristor-controlled reactors (TCR),
+
+
+%incorporating voltage dependency of loads in the process of phase-balancing.
+\cite{Singh2016}
+
+
+\cite{Oshiro2011a}
+
+
+
+\label{cap_planeacion}
+\cite{Idlbi2013}
+\end{comment}
+\chapter{\DIFdelbegin \DIFdel{TOPICOS  }\DIFdelend \DIFaddbegin \DIFadd{CLASIFICACIÓN }\DIFaddend DE \DIFdelbegin \DIFdel{INVESTIGACIÓN}\DIFdelend \DIFaddbegin \DIFadd{MATERIAL BIBLIOGRÁFICO}\DIFaddend }
+En este capitulo se \DIFdelbegin \DIFdel{destacan los principales resultados de investigacion obtenidos, permitiendo clasificarlos }\DIFdelend \DIFaddbegin \DIFadd{muestra el proceso de recopilación documental realizado a  la muestra. Estos criterios son denominados como }\textit{\DIFadd{criterios de búsqueda}}\DIFadd{, los cuales,  para la presente investigación son los siguientes,  de los que se destacan los tres mas importantes de cada categoría}\DIFaddend :\\
+\DIFaddbegin  \begin{itemize} 
+    \item \textit{\DIFadd{control voltage}}
+    \item \textit{\DIFadd{distributed generation}}
+ \end{itemize} 
+\DIFadd{Para identificar la muestra documental se empleo la herramienta SCOPUS  de la cual se muestran en la tabla \ref{tab:criterios_busqueda }.
+}\begin{table}
+    \caption{\DIFaddFL{Aplicación de los criterios de búsqueda}}
+    \label{tab:criterios_busqueda }
+\begin{tabular}{|l| p{8 cm}| m{2.8cm} |}
+    \hline
+    \DIFaddFL{CRITERIO }& \DIFaddFL{NOMBRE }&  \DIFaddFL{ARTÍCULOS }\\\hline
+    \multirow{3}{4cm}{Autor} & \DIFaddFL{Guerrero, J.M. }& \DIFaddFL{67}\\\cline{2-3}
+    & \DIFaddFL{Blaabjerg, F. }& \DIFaddFL{35 }\\\cline{2-3}
+    & \DIFaddFL{Vazquez J.C.  }& \DIFaddFL{33 }\\\hline
+    \multirow{3}{4 cm}{Afiliación} & \DIFaddFL{North China Electric Power University }& \DIFaddFL{62 }\\\cline{2-3}
+    & \DIFaddFL{China Electric Power Research Institute }& \DIFaddFL{52}\\\cline{2-3}
+    & \DIFaddFL{University of Alberta }& \DIFaddFL{49 }\\\hline
+    \multirow{3}{4 cm}{Pais} & \DIFaddFL{China }& \DIFaddFL{719 }\\\cline{2-3}
+    &\DIFaddFL{India }&\DIFaddFL{380 }\\\cline{2-3}
+    & \DIFaddFL{United States }& \DIFaddFL{367 }\\\hline
+    \multirow{3}{4 cm}{Fuente} & \DIFaddFL{IEEE Transactions On Smart Grid }& \DIFaddFL{100 }\\\cline{2-3}
+    &\DIFaddFL{International Journal Of Electrical Power And Energy Systems }&\DIFaddFL{69 }\\\cline{2-3}
+    &\DIFaddFL{IEEE Transactions On Power Systems }&\DIFaddFL{59 }\\\hline
+
+\end{tabular} 
+\end{table}
+
+
+
+\chapter{\DIFadd{ANÁLISIS DOCUMENTAL}}
+\label{cap:documental}
+
+\DIFadd{Este  análisis  consiste en evaluar el aporte de las diferentes fuentes bibliográficas a cada una de las temáticas abordadas  como }\textit{\DIFadd{criterios de análisis}}\DIFadd{. Dentro de este trabajo de investigación estos criterios de análisis fueron escogidos por el autor de acuerdo a la pertinencia que tienen los mismos dentro del marco conceptual referente a las redes inteligentes (}\textit{\DIFadd{smart grid}}\DIFadd{) presentado en   automatización de la red ( }\ac{ADA}\DIFadd{) y la calidad de la energía.}\\\\ 
+
+ \begin{itemize} 
+    \item \DIFadd{Microredes
+    }\item \DIFadd{Planeamiento de la red
+    }\item \DIFadd{Fuentes fotovoltaicas
+    }\item \DIFadd{Potencia activa y reactiva
+    }\item \DIFadd{Fuentes Eólicas
+    }\item \DIFadd{Capacidad de alojamiento
+    }\item \DIFadd{Análisis técnico - económico
+    }\item \DIFadd{Almacenamiento de energía
+    }\item \DIFadd{Redes en DC
+    }\item \DIFadd{Cambiador de tomas bajo carga
+} \end{itemize} 
+
+\section{\DIFadd{CONTROL DE TENSIÓN CON FUENTES FOTOVOLTAICAS}}
+
+\DIFadd{En \mbox{%DIFAUXCMD
+\cite{Oshiro2011a} }%DIFAUXCMD
+se plantea un control de tensión centralizado,  el cual responde con  cambios en la potencia reactiva inyectada por cada inversor tras  ocurrir cambios condiciones climatologías ( que afectan la cantidad de $kW/m^{2}$), la cantidad de potencia reactiva es calculada resolviendo el problema de optimización  basado en algoritmos genéticos }\ac{GA} \DIFadd{el cual a su vez controla los }\ac{SVR}  \DIFadd{y los }\ac{SVC} \DIFadd{que se encuentran el el sistema. 
+En \mbox{%DIFAUXCMD
+\cite{Shalwala2011a} }%DIFAUXCMD
+se realiza un control de centralizado  de tensión sobre un área residencial con alto grado de penetración de sistemas }\ac{PV} \DIFadd{basado en }\ac{FL}\DIFadd{. Tiene como parámetros  de entrada el área de las edificaciones, las curvas de radiación solar para controlar los }\ac{OLTC}\DIFadd{.  
+}\section{\DIFadd{PLANEAMIENTO DE LA RED}}
+
+\DIFaddend \section{\DIFdelbegin \DIFdel{RECONEXION }\DIFdelend \DIFaddbegin \DIFadd{RE CONEXIÓN }\DIFaddend DE CIRCUITOS DE DISTRIBUCIÓN}
+\DIFaddbegin \label{cap:clasificacion}
+\DIFaddend En \cite{Cao2016} se propone el uso de dispositivos \DIFdelbegin \DIFdel{electronicos }\DIFdelend \DIFaddbegin \DIFadd{electrónicos }\DIFaddend para transferir potencia reactiva en las \DIFdelbegin \DIFdel{fonteras }\DIFdelend \DIFaddbegin \DIFadd{fronteras }\DIFaddend de los circuitos del \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend , esto lo realiza mediante conversores back to back. Se noto que se mejora el \DIFdelbegin \DIFdel{desbalance }\DIFdelend \DIFaddbegin \DIFadd{des balance }\DIFaddend de la red a su vez que se minimizan las perdidas, logrando mayor efectividad cuando se usa en \DIFdelbegin \DIFdel{combinacion }\DIFdelend \DIFaddbegin \DIFadd{combinación }\DIFaddend con la DG y la \DIFdelbegin \DIFdel{reconfiguracion }\DIFdelend \DIFaddbegin \DIFadd{re configuración }\DIFaddend de circuitos manteniendo la tensión en los niveles esperados.\\
+\DIFaddbegin 
+
+\DIFaddend \section{CONTROL LOCAL}
+En \cite{Efkarpidis2016} se propone un sistema \DIFdelbegin \DIFdel{hibrido }\DIFdelend \DIFaddbegin \DIFadd{híbrido }\DIFaddend para el control de tensión en LV empleando de manera combinada OLTC y control de potencia activa y reactiva mediante inversores monifásicos, en tal caso el OLTC resulta ser el método mas efectivo para controlar los percentiles de la tensión.\DIFdelbegin %DIFDELCMD < \\ %%%
+\DIFdelend \DIFaddbegin \DIFadd{En \mbox{%DIFAUXCMD
+\cite{Colak2015} }%DIFAUXCMD
+plantea el uso se }\ac{ST} \DIFadd{para controlar la tensión y la transferencia de potencia activa de modo instantáneo en las zonas donde este alimenta el }\ac{DS}  \DIFadd{que contienen alto grado de }\ac{acronym}\DIFadd{. }\DIFaddend En \cite{Calderaro2014} se presenta un método de control basado en redes neuronales  capaz de controlar la tensión el los nodos de forma \DIFdelbegin \DIFdel{autonoma }\DIFdelend \DIFaddbegin \DIFadd{autónoma }\DIFaddend maximizando la potencia activa inyectada por los \DIFdelbegin \DIFdel{DS}\DIFdelend \DIFaddbegin \ac{DS}\DIFaddend . El controlador usa solamente la modulación en potencia activa si la modulación  de potencia reactiva no es suficiente, este método es probado tanto en fuentes fotovoltaicas  como en eólicas.\\  
+\section{CONTROL CENTRALIZADO}
+\DIFaddbegin \DIFadd{En el entorno de las }\ac{SG}\DIFadd{, algunos de los  }\ac{DG} \DIFadd{son despachados de modo central empleando apara ello diversas estrategias de control , mientras que por otro lado las }\ac{DG} \DIFadd{no despachadas como plantas solares y eólicas son controladas mediante un rango optimo predefinido de tensión \mbox{%DIFAUXCMD
+\cite{Vandoorn2013} }%DIFAUXCMD
+\mbox{%DIFAUXCMD
+\cite{colak2015survey}}%DIFAUXCMD
+.
+En \mbox{%DIFAUXCMD
+\cite{Oshiro2011a} }%DIFAUXCMD
+se plantea un esquema de control centralizado mediante }\ac{GA}  \DIFadd{en el que se consideran los inversores SVC,  en \mbox{%DIFAUXCMD
+\cite{Shalwala2011a} }%DIFAUXCMD
+se considera un control }\ac{FL} \DIFadd{que controla los }\ac{OLTC}  \DIFadd{con alta penetración de sistemas }\ac{PV}\DIFadd{.
+}
+
+\DIFaddend \section{CAPACIDAD DE \DIFdelbegin \DIFdel{ALOJAMINTO }\DIFdelend \DIFaddbegin \DIFadd{ALOJAMIENTO }\DIFaddend (HOSTING CAPACITY)}	
+La capacidad de \DIFdelbegin \DIFdel{alojamineto }\DIFdelend \DIFaddbegin \DIFadd{alojamiento }\DIFaddend (HC \textit{hosting Capacity}) consiste en cuantificar el \DIFdelbegin \DIFdel{implacto que tendra }\DIFdelend \DIFaddbegin \DIFadd{impacto que tendrá }\DIFaddend un incremento de la DG \cite{Bollen2008}.\\
+En \cite{Caldon2015a} se plantea una estrategia de control de tensión sobre los DER ubicados dentro  de usuarios finales en el contexto de madurez de las \textit{smart grid}, lo que permite emplear la infraestructura de comunicación, distribuyendo el area del \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend en zonas las cuales se comunican mediante tokens para realizar el contro de tensión.\\
+En \cite{Rylander2016a} se realiza un estudio sobre el HC teniendo en cuenta un \DIFdelbegin \DIFdel{DS }\DIFdelend \DIFaddbegin \ac{DS} \DIFaddend individual,  sino todos los alimentadores de un OR, permitiendo determinar  \DIFdelbegin \DIFdel{asi }\DIFdelend \DIFaddbegin \DIFadd{así }\DIFaddend tanto un indicador global como un indicador para cada uno de los circuitos.  De esta manera el HC es influenciado por tres bariables: regulacion de tensión, capacidad termica  y las protecciones, de los cuales se noto que el parametro más influyente es la capacidad térmica del \DIFdelbegin \DIFdel{DS.
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\chapter{\DIFdel{METODOLOGIA}}
+%DIFAUXCMD
+\addtocounter{chapter}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{La investigación a desarrollar es del tipo }\textit{\DIFdel{correlacional}}%DIFAUXCMD
+\DIFdel{, está parte  de realizar un estudio }\emph{\DIFdel{descriptivo}} %DIFAUXCMD
+\DIFdel{del fenómeno,  explorando sus contenidos  y  evaluando  sus tópicos de manera analítica. Una vez obtenido  esto  se pasa a un trabajo comparativo  en el cual se establecen las    }\textit{\DIFdel{relaciones}} %DIFAUXCMD
+\DIFdel{que describan de modo cualitativo y/o cuantitativo  el tema en estudio . La técnica a emplear en este trabajo sera el }\textit{\DIFdel{análisis documental}} %DIFAUXCMD
+\DIFdel{que buscan describir y representar los documentos de forma unificada sistemática para facilitar su recuperación. 
+Para lograr este objetivo se plantean tres etapas de la  investigación de la siguiente manera:}%DIFDELCMD < \\\\
+%DIFDELCMD < \begin{enumerate}
+ \begin{enumerate} %DIFAUXCMD
+%DIFDELCMD < 	\item%%%
+\item%DIFAUXCMD
+\textbf{\DIFdel{Plantación  y diseño}} %DIFAUXCMD
+\DIFdel{: consiste en la selección  de los }\textit{\DIFdel{criterios  de clasificación }} %DIFAUXCMD
+\DIFdel{que se aplican a la muestra documental,  estos son como autor, palabras claves, bibliografía, etc que permitan manipular grandes volúmenes documentales de forma ordenada. tambien se deben establecer los }\textit{\DIFdel{criterios de análisis}}  %DIFAUXCMD
+\DIFdel{que son los tópicos de interés que permitan comparar las distintas fuentes  bibliográficas y realizar una trazabilidad sobre ellas.
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\textbf{\DIFdel{Gestión y análisis}} %DIFAUXCMD
+\DIFdel{: En está etapa se  construyen la }\textit{\DIFdel{matriz bibliografica}}  %DIFAUXCMD
+\DIFdel{y la }\textit{\DIFdel{matriz de análisis}}%DIFAUXCMD
+\DIFdel{. La primera es un compendio ordenado de las fuentes bibliográficas que  constituyen la muestra, mientras que la segunda  consiste en la síntesis de lo que cada fuente bibliográfica le aporta  a los }\textit{\DIFdel{criterios de análisis}}%DIFAUXCMD
+\DIFdel{.  
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\textbf{\DIFdel{Formalización y elaboración}}%DIFAUXCMD
+\DIFdel{: en está etapa se retoma la }\textit{\DIFdel{matriz  de análisis }}  %DIFAUXCMD
+\DIFdel{y se evalua en funcion de los criterios, estableciendo las similitudes, diferencias, coyunturas,  tendencias y correlaciones  a fin de resolver los objetivos específicos de la investigación.
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\textbf{\DIFdel{Escritura documental y socialización}} %DIFAUXCMD
+\DIFdel{:  en está se toman cada uno de los }\textit{\DIFdel{criterios de análisis }} %DIFAUXCMD
+\DIFdel{como base  para la escritura de los capítulos  del documento final.
+}
+ \end{enumerate} %DIFAUXCMD
+%DIFDELCMD < \end{enumerate}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\section{\DIFdel{PLANIFICACION Y DISEÑO}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+\DIFdel{Para la realizacion de la busquieda documental se partio se la seleccion de las siguientes palabas claves (}\textit{\DIFdel{key words}}%DIFAUXCMD
+\DIFdel{) como }\textit{\DIFdel{criterios de clasificación}} %DIFAUXCMD
+\DIFdel{:
+}%DIFDELCMD < 
+
+%DIFDELCMD < \begin{itemize}
+ \begin{itemize} %DIFAUXCMD
+%DIFDELCMD < 	\item %%%
+\item%DIFAUXCMD
+\textit{\DIFdel{control voltage}}
+	%DIFAUXCMD
+%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\textit{\DIFdel{distributied generation}}
+%DIFAUXCMD
+
+ \end{itemize} %DIFAUXCMD
+%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Se uso el gestor documental SCOPUS, y  a partir de sus resultados se seleccionaron los documentos en cuya temática tienen pertinencia, permitiendo así la construcción de la matríz bibliográfica como se muestra en la tabla \ref{tab:matriz_bibliografica}. en ella se ordenaron los textos encontrados de acuerdo a los siguientes criterios o temas :}%DIFDELCMD < \\
+%DIFDELCMD < 
+
+%DIFDELCMD < \begin{itemize}
+ \begin{itemize} %DIFAUXCMD
+%DIFDELCMD < 	\item %%%
+\item%DIFAUXCMD
+\DIFdel{Microredes
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Planeaminto de la red
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Fuentes fotovoltaicas
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Potencia activa y reactiva
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Fuentes Eólicas
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Capacidad de alojamiento
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Análisis tecnico - enconómico
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Almacenamiento de energía
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Redes en DC
+	}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Cambiador de tomas bajo carga
+}
+ \end{itemize} %DIFAUXCMD
+%DIFDELCMD < \end{itemize}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{Se adicciona entonces una columna a la matriz bibliografica en donde se pondera la relación que tiene el contenido del articulo con la temática de estudio en una escala de uno a diez ( 1 a 10) , en diez es la relación más alta.}%DIFDELCMD < \\
+%DIFDELCMD < 
+
+%DIFDELCMD < \begin{longtable}{|p{3cm}|c|p{3cm}|p{6cm}|c|}
+%DIFDELCMD < 	%%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdel{Matriz bibliográfica}}
+	%DIFAUXCMD
+%DIFDELCMD < \label{tab:matriz_bibliografica}\\
+%DIFDELCMD < 	\hline
+%DIFDELCMD < 	%%%
+\textbf{\DIFdel{Tema}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Año}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Autor}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Titulo}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Puntuación}} %DIFAUXCMD
+%DIFDELCMD < \\
+%DIFDELCMD < 	\hline
+%DIFDELCMD < 	\endfirsthead
+%DIFDELCMD < 	%%%
+%DIF < \hline
+	%DIF < \textbf{Tema} & \textbf{Año} & \textbf{Autor} & \textbf{Titulo} \\
+	%DIFDELCMD < \multicolumn{5}{c}%%%
+%DIF < 
+	%DIFDELCMD < {\tablename%%%
+\DIFdel{\ }%DIFDELCMD < \thetable%%%
+\DIFdel{\ -- }\textit{\DIFdel{Continuación de la página anterior}}%DIFAUXCMD
+%DIFDELCMD < } \\
+%DIFDELCMD < 	\hline
+%DIFDELCMD < 	%%%
+\textbf{\DIFdel{Tema}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Año}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Autor}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Titulo}} %DIFAUXCMD
+%DIFDELCMD < & %%%
+\textbf{\DIFdel{Puntuación}}%DIFAUXCMD
+%DIFDELCMD < \\
+%DIFDELCMD < 	\hline
+%DIFDELCMD < 	\endhead
+%DIFDELCMD < 	\hline \multicolumn{5}{r}{\textit{Continua en la página siguiente}} \\
+%DIFDELCMD < 	\endfoot
+%DIFDELCMD < 	\hline
+%DIFDELCMD < 	\endlastfoot
+%DIFDELCMD < 	\multirow{6}{3 cm}{Planeamiento de la red}
+%DIFDELCMD < 	 & %%%
+\DIFdel{2016 }%DIFDELCMD < & %%%
+\DIFdel{Wanyu Cao }%DIFDELCMD < & %%%
+\DIFdel{Benefits analysis of Soft Open Points for electrical distribution network	 operation. \mbox{%DIFAUXCMD
+\cite{Cao2016} }%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{9 }%DIFDELCMD < \\\cline{2-5} 
+%DIFDELCMD < 	 & %%%
+\DIFdel{2014 }%DIFDELCMD < & %%%
+\DIFdel{Partha Kayal	 }%DIFDELCMD < &%%%
+\DIFdel{Selection of Distributed Generation for Distribution Network: A Study in Multi-criteria Framework. \mbox{%DIFAUXCMD
+\cite{Kayal2014} }%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{7 }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 & %%%
+\DIFdel{2016}%DIFDELCMD < & %%%
+\DIFdel{N. Efkarpidis}%DIFDELCMD < & 	%%%
+\DIFdel{Technical assessment of centralized and localized voltage control	 strategies in low voltage networks. \mbox{%DIFAUXCMD
+\cite{Efkarpidis2016}}%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{8
+	  }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 &%%%
+\DIFdel{2014}%DIFDELCMD < &  %%%
+\DIFdel{V. Calderaro}%DIFDELCMD < & 	%%%
+\DIFdel{Active management of renewable energy sources for maximizing	 power production.\mbox{%DIFAUXCMD
+\cite{Calderaro2014} }%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{9
+	   }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 &%%%
+\DIFdel{2013  }%DIFDELCMD < & %%%
+\DIFdel{Rui Jovita G.C. da Silva	 }%DIFDELCMD < & %%%
+\DIFdel{Decentralized secondary voltage control using voltage drop compensator
+	 among power plants.\mbox{%DIFAUXCMD
+\cite{DaSilva2013}}%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{2 }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 &%%%
+\DIFdel{2017 }%DIFDELCMD < & %%%
+\DIFdel{Wai Lip Theo }%DIFDELCMD < & %%%
+\DIFdel{Review of distributed generation (DG) system planning and  optimisation techniques: Comparison of numerical and mathematical modelling methods \mbox{%DIFAUXCMD
+\cite{Theo2017}}%DIFAUXCMD
+}%DIFDELCMD < & \\\hline
+%DIFDELCMD < 	 
+
+%DIFDELCMD < 	 \multirow{3}{3 cm}{Capacidad de almacenamiento} 
+%DIFDELCMD < 	 & %%%
+\DIFdel{2015 }%DIFDELCMD < & %%%
+\DIFdel{R.
+Caldon }%DIFDELCMD < & %%%
+\DIFdel{Distributed active network management strategy  including DG and storage systems \mbox{%DIFAUXCMD
+\cite{Caldon2015a} }%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{9 }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 & %%%
+\DIFdel{2017 }%DIFDELCMD < & %%%
+\DIFdel{Chengshan Wang }%DIFDELCMD < & %%%
+\DIFdel{Optimal siting and sizing of soft open points in active electrical
+	 distribution networks }%DIFDELCMD < & %%%
+\DIFdel{9 }%DIFDELCMD < \\\cline{2-5}
+%DIFDELCMD < 	 & %%%
+\DIFdel{2016 }%DIFDELCMD < & %%%
+\DIFdel{Matthew Rylander }%DIFDELCMD < & %%%
+\DIFdel{Application of New Method for Distribution-Wide Assessment of Distributed Energy Resources \mbox{%DIFAUXCMD
+\cite{Rylander2016a}}%DIFAUXCMD
+}%DIFDELCMD < & %%%
+\DIFdel{7}%DIFDELCMD < \\\hline
+%DIFDELCMD < 	 
+
+%DIFDELCMD < 	 
+%DIFDELCMD < 	 
+%DIFDELCMD < \end{longtable}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\section{\DIFdel{GESTION Y ANALISIS}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\section{\DIFdel{FORMALIZACION Y ELABORACION}}
+%DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \ac{DS}\DIFadd{.
+}\DIFaddend 
+
+\chapter{\DIFdelbegin \DIFdel{FRONTERAS }\DIFdelend \DIFaddbegin \DIFadd{RESULTADOS }\DIFaddend DE \DIFdelbegin \DIFdel{INVESTIGACION}\DIFdelend \DIFaddbegin \DIFadd{INVESTIGACIÓN}\DIFaddend }
+\DIFdelbegin \DIFdel{En \mbox{%DIFAUXCMD
+\cite{Cao2016} }%DIFAUXCMD
+se destaca el alto costo de los  reconectadores y de los sistemas de comunicacion, junto a la ventaja del uso de convertidores back to back en lo cual se deben hacer estudios para conocer su impacto economico.}%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{cap:resultados}
+%DIF > En \cite{Cao2016} se destaca el alto costo de los  reconectadores y de los sistemas de comunicación, junto a la ventaja del uso de convertidores back to back en lo cual se deben hacer estudios para conocer su impacto económico.\\
+\DIFaddend 
+
+% Bibliografía
+\bibliographystyle{ieeetr}
+\bibliography{library,bibliografia_anteproyecto}
+%\bibliographystyle{ieeetr}
+
+\end{document}
