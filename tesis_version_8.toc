@@ -1,0 +1,35 @@
+\select@language {spanish}
+\contentsline {chapter}{Lista de figuras}{4}{chapter*.1}
+\contentsline {chapter}{Lista de tablas}{5}{chapter*.2}
+\contentsline {chapter}{\numberline {1}MARCO TE\IeC {\'O}RICO}{10}{chapter.1}
+\contentsline {section}{\numberline {1.1}CA\IeC {\'I}DA DE TENSI\IeC {\'O}N CON GENERACI\IeC {\'O}N DISTRIBUIDA}{10}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Caso cr\IeC {\'\i }tico carga m\IeC {\'\i }nima y m\IeC {\'a}xima generaci\IeC {\'o}n }{12}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Caso critico m\IeC {\'a}xima carga y m\IeC {\'\i }nima generaci\IeC {\'o}n }{13}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Dependencia del factor R/X}{13}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}ELEMENTOS DE CONTROL DE TENSI\IeC {\'O}N}{14}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Cambiador de Taps bajo Carga}{14}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Regulador de Tensi\IeC {\'o}n}{15}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Compensador de Var Sincrono}{15}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Generadores Fotovoltaicos }{15}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Transformador inteligente (Small Transformer)}{15}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Convertidores de Potencia}{15}{subsection.1.2.6}
+\contentsline {subsubsection}{Inversores}{15}{section*.22}
+\contentsline {subsection}{\numberline {1.2.7}Conversores back to back}{17}{subsection.1.2.7}
+\contentsline {section}{\numberline {1.3}M\IeC {\'E}TODOS DE OPTIMIZACI\IeC {\'O}N}{17}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Algoritmos Gen\IeC {\'e}ticos}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}L\IeC {\'o}gica Difusa}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Agentes Inteligentes}{17}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}AN\IeC {\'A}LISIS FINANCIERO}{17}{section.1.4}
+\contentsline {chapter}{\numberline {2}CLASIFICACI\IeC {\'O}N DE MATERIAL BIBLIOGR\IeC {\'A}FICO}{18}{chapter.2}
+\contentsline {chapter}{\numberline {3}AN\IeC {\'A}LISIS DOCUMENTAL}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}MICRO REDES}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}PLANEAMIENTO DE LA RED}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}IMPACTO DE LAS REDES FOTOVOLTAICAS}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}IMPACTO DE LAS REDES E\IeC {\'O}LICAS}{21}{section.3.4}
+\contentsline {section}{\numberline {3.5}FLUJO DE POTENCIA ACTIVA Y REACTIVA}{21}{section.3.5}
+\contentsline {section}{\numberline {3.6}CONTROL LOCAL O CENTRALIZADO}{21}{section.3.6}
+\contentsline {section}{\numberline {3.7}OPTIMIZACI\IeC {\'O}N DE LA CAPACIDAD DE ALOJAMIENTO (HOSTING CAPACITY)}{22}{section.3.7}
+\contentsline {section}{\numberline {3.8}AN\IeC {\'A}LISIS T\IeC {\'E}CNICO ECON\IeC {\'O}MICO}{22}{section.3.8}
+\contentsline {section}{\numberline {3.9}IMPACTO DEL ALMACENAMIENTO DE ENERG\IeC {\'I}A}{22}{section.3.9}
+\contentsline {section}{\numberline {3.10}CONTROL DE TENSI\IeC {\'O}N EN REDES DC}{22}{section.3.10}
+\contentsline {chapter}{\numberline {4}RESULTADOS DE INVESTIGACI\IeC {\'O}N}{23}{chapter.4}

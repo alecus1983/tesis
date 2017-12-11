@@ -1,0 +1,119 @@
+\documentclass[12pt, letterpaper]{report}
+\usepackage[spanish, es-tabla]{babel}% coloca tabla en lugar de cudro en las tablas e idioma español.
+% Dimensiones y márgenes---------------------------------------------
+\usepackage[total={18cm,21cm},top=4cm, left=2cm, right = 3 cm]{geometry}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault} 
+%\usepackage[T1]{fontenc}
+% Otros paquetes -----------------------------------------------------
+\usepackage{mathpazo} %fuente palatino
+\usepackage{graphicx} %paquete para gáficos
+%\usepackage{xcolor}	%paquete para colores
+\usepackage{pstricks}	
+\usepackage[utf8]{inputenc}
+%\usepackage[shortlabels]{enumitem}
+% Referencias para graficos
+\usepackage{graphicx} % gráficos
+\usepackage{subfigure} % subgráficos
+% Referencias - ligas
+\usepackage[hyphens]{url}
+\usepackage[breaklinks,colorlinks=true,linkcolor=red, citecolor=red, urlcolor=blue]{hyperref}
+%Paquetes adicionales de símbolos matemáticos
+\usepackage{amsmath,amssymb,cancel}% funciones matematicas ,amsfonts ,latexsym
+%Comandos ---------------------------------------------------------
+\usepackage{fix-cm} % Allows increasing the font size of specific fonts beyond 
+\usepackage{colortbl} % Comandos personales - especiales
+\usepackage{ multirow, array} % para las tablas
+\usepackage{float} % para usar [H]
+\usepackage{longtable} % para tablas largas
+%\pagestyle{empty}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{rotating}% paquete para rotar
+%\usepackage{html,makeidx}
+%\usepackage{cite}
+%\pagestyle{myheadings}% estilo de pagina propio
+%\markright{\rightmark} %\usepackage{fancyhdr}% para los estilos de encabezado y pie de pagina
+\pagestyle{fancy}% estilo de pagina
+%\fancyfoot[LE,RO]{\thepage}
+% cabecera y pie
+\lhead{Página \thepage } % texto izquierda de la cabecera
+%\chead{TEXTO} % texto centro de la cabecera
+%\rhead{\thepage} % número de página a la derecha
+\lfoot{} % texto izquierda del pie
+\cfoot{\includegraphics[width = 1cm]{universidad.png} } % imagen centro del pie
+%\rfoot{ \textit{Maestria en Ingenieria con Énfasis en Ing. Eléctrica}} % texto derecha del pie
+%\renewcommand{\headrulewidth}{0.4pt} % grosor de la línea de la cabecera
+%\renewcommand{\footrulewidth}{0.4pt} % grosor de la línea del pie
+%LaTeX default specifications
+%more content to this template
+
+\definecolor{grey}{rgb}{0.9,0.9,0.9} % Color of the box surrounding the title - these values can be changed to give the box a different color	
+
+
+\begin{document}
+\title{Anteproyecto}
+\author{Alejandro Palacios Carabali.}
+\date{2016}
+%\tableofcontents
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%---------------------------------------------------------
+\thispagestyle{empty}% pagina no numerada	
+\colorbox{grey}{
+	\parbox[t]{1.0\linewidth}{
+		\centering \fontsize{20pt}{30pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+		\vspace*{0.7cm} % Space between the start of the title and the top of the grey box
+		
+		\hfill \textbf{ ESTADO DEL ARTE}\\ 
+		\hfill \textbf{SOBRE }\\
+		\hfill \textbf{ESTRATEGIAS }\\
+		\hfill \textbf{PARA LA REGULACIÓN DE} \\
+		\hfill \textbf{VOLTAJE EN REDES DE } \\ 
+		\hfill \textbf{DISTRIBUCIÓN ELÉCTRICA } \\ 
+		\hfill \textbf{CON ALTO GRADO DE}\\
+		\hfill \textbf{GENERACIÓN }\\
+		\hfill \textbf{DISTRIBUIDA }\\
+		\par
+		
+		\vspace*{0.7cm} % Space between the end of the title and the bottom of the grey box
+	}
+}
+
+%----------------------------------------------------------------------------------------
+
+\vfill % Space between the title box and author information
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR NAME AND INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\centering \large 
+\hfill Alejandro Palacios \\
+\hfill Universidad del Valle \\
+\hfill Escuela de Ingeniería Eléctrica y Electrónica \\
+\hfill Directores:\\
+\hfill Diego Fernando Echeverry\\
+\hfill Sandra Milena Londoño\\
+
+}
+%{1pt}} % Horizotal line, thickness changed here
+
+%----------------------------------------------------------------------------------------
+\sloppy
+
+\chapter{CONTROL DE TENSIÓN BASADO EN CAMBIADORES DE TOMAS BAJO CARGA} 
+\chapter{CONTROL DE TENSIÓN BASADO EN LA REGULACIÓN DE POTENCIA ACTIVA Y REACTIVA}
+\chapter{CONTROL DE TENSIÓN BASADO EN LA COMPENSACIÓN  DE POTENCIA REACTIVA}
+\chapter{CONTROL DE TENSIÓN BASADO EN EL ALMACENAMIENTO DE ENERGÍA}
+\chapter{CONTROL DE TENSIÓN BASADO EN EL CONTROL DEL INVERSOR }
+\chapter{CONTROL DE TENSIÓN CENTRALIZADO}
+\chapter{PANEACION, CORRDINACIÓN DE }
+\chapter{MARCO TEÓRICO }
+
+% Bibliografía
+\bibliographystyle{ieeetr}
+\bibliography{bibliografia_anteproyecto}
+%\bibliographystyle{ieeetr}
+
+\end{document}

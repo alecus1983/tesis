@@ -1,0 +1,27 @@
+\select@language {spanish}
+\contentsline {chapter}{{\color {blue}\uwave {Lista de figuras}}}{3}{chapter*.1}
+\contentsline {chapter}{{\color {blue}\uwave {Lista de tablas}}}{4}{chapter*.2}
+\contentsline {chapter}{\numberline {1}MARCO TE\IeC {\'O}RICO}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}\DIFdelbegin {\color {red}\sout {CAIDA }}\DIFdelend \DIFaddbegin {\color {blue}\uwave {CA\IeC {\'I}DA }}\DIFaddend DE TENSI\IeC {\'O}N CON GENERACI\IeC {\'O}N DISTRIBUIDA}{8}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Caso cr\IeC {\'\i }tico ( carga m\IeC {\'\i }nima y m\IeC {\'a}xima generaci\IeC {\'o}n ) }{10}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Caso critico m\IeC {\'a}xima carga y m\IeC {\'\i }nima generaci\IeC {\'o}n }{11}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Dependencia del factor R/X}{11}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}ELEMENTOS DE CONTROL DE TENSI\IeC {\'O}N}{12}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}CAMBIADOR DE TAPS BAJO CARGA ( ON LOAD TAP CHANGER \textit {OLTC})}{12}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}REGULADOR DE TENSI\IeC {\'O}N}{12}{section.1.3}
+\contentsline {section}{\numberline {1.4}CONVERSORES DE POTENCIA}{12}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Inversores}{12}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Conversores back to back}{13}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {2}{\color {red}\sout {TOPICOS DE INVESTIGACI\IeC {\'O}N}}}{15}{chapter.2}
+\contentsline {chapter}{\numberline {2}{\color {blue}\uwave {CLASIFICACI\IeC {\'O}N DE MATERIAL BIBLIOGR\IeC {\'A}FICO}}}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}{\color {red}\sout {RECONEXION DE CIRCUITOS DE DISTRIBUCI\IeC {\'O}N}}}{16}{section.2.1}
+\contentsline {section}{\numberline {2.1}{\color {red}\sout {CONTROL LOCAL}}}{16}{section.2.1}
+\contentsline {section}{\numberline {2.1}{\color {red}\sout {CONTROL CENTRALIZADO}}}{17}{section.2.1}
+\contentsline {section}{\numberline {2.1}{\color {red}\sout {CAPACIDAD DE ALOJAMINTO (HOSTING CAPACITY)}}}{17}{section.2.1}
+\contentsline {chapter}{\numberline {3}\DIFdelbegin {\color {red}\sout {FRONTERAS DE INVESTIGACION}}\DIFdelend \DIFaddbegin {\color {blue}\uwave {AN\IeC {\'A}LISIS DOCUMENTAL}}\DIFaddend }{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}{\color {blue}\uwave {CONTROL DE TENSION CON FUENTES FOTOVOLTAICAS}}}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}{\color {blue}\uwave {RE CONEXI\IeC {\'O}N DE CIRCUITOS DE DISTRIBUCI\IeC {\'O}N}}}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}{\color {blue}\uwave {CONTROL LOCAL}}}{19}{section.3.3}
+\contentsline {section}{\numberline {3.4}{\color {blue}\uwave {CONTROL CENTRALIZADO}}}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}{\color {blue}\uwave {CAPACIDAD DE ALOJAMINTO (HOSTING CAPACITY)}}}{19}{section.3.5}
+\contentsline {chapter}{\numberline {4}{\color {blue}\uwave {RESULTADOS DE INVESTIGACI\IeC {\'O}N}}}{21}{chapter.4}

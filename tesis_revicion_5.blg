@@ -1,0 +1,26 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tesis_revicion_5.aux
+The style file: ieeetr.bst
+Database file #1: library.bib
+Repeated entry---line 3693 of file library.bib
+ : @article{Mahmud2016
+ :                    ,
+I'm skipping whatever remains of this entry
+Database file #2: bibliografia_anteproyecto.bib
+I was expecting a `,' or a `}'---line 276 of file bibliografia_anteproyecto.bib
+ :  
+ :  keyworks  = {Coordinated voltage control,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in GSGF2015
+Warning--empty year in GSGF2015
+Warning--can't use both volume and number fields in Pegueroles-Queralt2012
+Too many commas in name 1 of "Zhiyuan Tanga, David J. Hilla,b, Tao Liua" for entry Tang2017
+while executing---line 963 of file ieeetr.bst
+Warning--empty journal in Tang2017
+Warning--empty year in Tang2017
+Warning--empty journal in trebolle2012control
+Warning--empty publisher in IEC60214
+Warning--empty year in IEC60214
+Warning--empty journal in Bollen2008
+Warning--empty year in Bollen2008
+(There were 3 error messages)

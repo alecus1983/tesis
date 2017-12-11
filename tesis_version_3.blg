@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tesis_version_3.aux
+The style file: ieeetr.bst
+Database file #1: library.bib
+Repeated entry---line 3693 of file library.bib
+ : @article{Mahmud2016
+ :                    ,
+I'm skipping whatever remains of this entry
+Database file #2: bibliografia_anteproyecto.bib
+I was expecting a `,' or a `}'---line 276 of file bibliografia_anteproyecto.bib
+ :  
+ :  keyworks  = {Coordinated voltage control,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Zhiyuan Tanga, David J. Hilla,b, Tao Liua" for entry Tang2017
+while executing---line 969 of file ieeetr.bst
+Warning--empty journal in Tang2017
+Warning--empty year in Tang2017
+Warning--empty journal in trebolle2012control
+Warning--empty publisher in IEC60214
+Warning--empty year in IEC60214
+Warning--empty journal in Bollen2008
+Warning--empty year in Bollen2008
+You've used 24 entries,
+            1876 wiz_defined-function locations,
+            633 strings with 8855 characters,
+and the built_in function-call counts, 6964 in all, are:
+= -- 687
+> -- 297
+< -- 0
++ -- 108
+- -- 84
+* -- 521
+:= -- 994
+add.period$ -- 22
+call.type$ -- 24
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 31
+duplicate$ -- 345
+empty$ -- 624
+format.name$ -- 84
+if$ -- 1669
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 25
+newline$ -- 75
+num.names$ -- 24
+pop$ -- 71
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 239
+stack$ -- 0
+substring$ -- 507
+swap$ -- 147
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 7
+while$ -- 78
+width$ -- 26
+write$ -- 227
+(There were 3 error messages)

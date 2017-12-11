@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+
+\bibitem{basso2004ieee}
+T.~S. Basso and R.~DeBlasio, ``Ieee 1547 series of standards: interconnection
+  issues,'' {\em IEEE Transactions on Power Electronics}, vol.~19, no.~5,
+  pp.~1159--1162, 2004.
+
+\bibitem{Bacha2015}
+S.~Bacha, D.~Picault, B.~Burger, I.~Etxeberria-Otadui, and J.~Martins,
+  ``{Photovoltaics in microgrids: An overview of grid integration and energy
+  management aspects},'' {\em IEEE Ind. Electron. Mag.}, vol.~9, no.~1,
+  pp.~33--46, 2015.
+
+\bibitem{Bahmanifirouzi2012}
+B.~Bahmanifirouzi, E.~Farjah, T.~Niknam, and E.~{Azad Farsani}, ``{A new hybrid
+  hbmo-sfla algorithm for multi-objective distribution feeder reconfiguration
+  problem considering distributed generator units},'' {\em Iran. J. Sci.
+  Technol. - Trans. Electr. Eng.}, vol.~36, no.~E1, pp.~51--66, 2012.
+
+\bibitem{Hauck2017}
+M.~Hauck, Z.~J. Steinmann, A.~M. Schipper, F.~Gorrissen, A.~Venkatesh, and
+  M.~A. Huijbregts, ``{Estimating the Greenhouse Gas Balance of Individual
+  Gas-Fired and Oil-Fired Electricity Plants on a Global Scale},'' {\em J. Ind.
+  Ecol.}, vol.~21, pp.~127--135, feb 2017.
+
+\bibitem{Calderaro2014}
+V.~Calderaro, G.~Conio, V.~Galdi, G.~Massa, and A.~Piccolo, ``{Active
+  management of renewable energy sources for maximizing power production},''
+  {\em Int. J. Electr. Power Energy Syst.}, vol.~57, pp.~64--72, 2014.
+
+\bibitem{Mahmud2016}
+N.~Mahmud and A.~Zahedi, ``{Review of control strategies for voltage regulation
+  of the smart distribution network with high penetration of renewable
+  distributed generation},'' {\em Renew. Sustain. Energy Rev.}, vol.~64,
+  pp.~582--595, 2016.
+
+\bibitem{Karanki2014}
+S.~B. Karanki and D.~Xu, ``{Voltage droop control of dual active bridge for
+  integrating battery energy storage to utility gird},'' {\em 2014 IEEE Energy
+  Convers. Congr. Expo. ECCE 2014}, pp.~2227--2232, 2014.
+
+\bibitem{DinakaraPrasadReddy2017}
+P.~{Dinakara Prasad Reddy}, V.~{Veera Reddy}, and T.~{Gowri Manohar},
+  ``{Optimal renewable resources placement in distribution networks by combined
+  power loss index and whale optimization algorithms},'' {\em J. Electr. Syst.
+  Inf. Technol.}, pp.~1--17, 2017.
+
+\bibitem{Koutsoukis2017}
+N.~C. Koutsoukis, D.~O. Siagkas, P.~S. Georgilakis, and N.~D. Hatziargyriou,
+  ``{Online Reconfiguration of Active Distribution Networks for Maximum
+  Integration of Distributed Generation},'' {\em IEEE Trans. Autom. Sci. Eng.},
+  vol.~14, no.~2, pp.~437--448, 2017.
+
+\bibitem{Othman2016a}
+M.~M. Othman, W.~El-Khattam, Y.~G. Hegazy, and A.~Y. Abdelaziz, ``{Optimal
+  placement and sizing of voltage controlled distributed generators in
+  unbalanced distribution networks using supervised firefly algorithm},'' {\em
+  Int. J. Electr. Power Energy Syst.}, vol.~82, pp.~105--113, 2016.
+
+\bibitem{Badran2017}
+O.~Badran, S.~Mekhilef, H.~Mokhlis, and W.~Dahalan, ``{Optimal reconfiguration
+  of distribution system connected with distributed generations: A review of
+  different methodologies},'' {\em Renew. Sustain. Energy Rev.}, vol.~73,
+  no.~January, pp.~854--867, 2017.
+
+\bibitem{Tang2017}
+b.~T.~L. Zhiyuan~Tanga, David J.~Hilla, ``Two-stage voltage control of
+  subtransmission networks with high penetration of wind power,''
+
+\bibitem{Delfanti2013}
+M.~Delfanti, D.~Falabretti, and M.~Merlo, ``{Dispersed generation impact on
+  distribution network losses},'' {\em Electr. Power Syst. Res.}, vol.~97,
+  no.~April, pp.~10--18, 2013.
+
+\bibitem{su2009comparative}
+C.~Su, ``Comparative analysis of voltage control strategies in distribution
+  networks with distributed generation,'' in {\em 2009 IEEE Power \& Energy
+  Society General Meeting}, pp.~1--7, IEEE, 2009.
+
+\bibitem{strbac2002integration}
+G.~Strbac, N.~Jenkins, M.~Hird, P.~Djapic, and G.~Nicholson, ``Integration of
+  operation of embedded generation and distribution networks,'' {\em University
+  of Manchester Institute of Science and Technology (UMIST)}, 2002.
+
+\bibitem{trebolle2012control}
+D.~Trebolle~Trebolle, P.~Fr{\'\i}as~Mar{\'\i}n, M.~Ortega, J.~Mar{\'\i}a, and
+  J.~L. Mart{\'\i}nez~Ramos, ``El control de tensi{\'o}n en redes de
+  distribuci{\'o}n con generaci{\'o}n distribuida (i),'' 2012.
+
+\bibitem{Liu2012}
+X.~Liu, A.~Aichhorn, L.~Liu, and H.~Li, ``{Coordinated control of distributed
+  energy storage system with tap changer transformers for voltage rise
+  mitigation under high photovoltaic penetration},'' {\em IEEE Trans. Smart
+  Grid}, vol.~3, no.~2, pp.~897--906, 2012.
+
+\bibitem{Castro2016}
+J.~R. Castro, M.~Saad, S.~Lefebvre, D.~Asber, and L.~Lenoir, ``{Optimal voltage
+  control in distribution network in the presence of DGs},'' {\em Int. J.
+  Electr. Power Energy Syst.}, vol.~78, pp.~239--247, 2016.
+
+\bibitem{Sarimuthu2016}
+C.~R. Sarimuthu, V.~K. Ramachandaramurthy, K.~R. Agileswari, and H.~Mokhlis,
+  ``{A review on voltage control methods using on-load tap changer transformers
+  for networks with renewable energy sources},'' {\em Renew. Sustain. Energy
+  Rev.}, vol.~62, pp.~1154--1161, 2016.
+
+\bibitem{Fila2007}
+M.~Fila, G.~A. Taylor, M.~R. Irving, J.~Hiscock, P.~Lang, and P.~Aston,
+  ``{Systematic modelling and analysis of tapp voltage control schemes},'' {\em
+  Proc. Univ. Power Eng. Conf.}, no.~2, pp.~349--356, 2007.
+
+\bibitem{Idlbi2013}
+B.~Idlbi, K.~Diwold, T.~Stetz, H.~Wang, and M.~Braun, ``{Cost-benefit analysis
+  of central and local voltage control provided by distributed generators in MV
+  networks},'' {\em 2013 IEEE Grenoble Conf. PowerTech, POWERTECH 2013}, 2013.
+
+\end{thebibliography}

@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {figure}{\numberline {1}{\ignorespaces Concepto de incremento de tensi\IeC {\'o}n en los sistemas de distribuci\IeC {\'o}n \cite {GSGF2015} }}{7}{figure.0.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Diagrama unifilar de una red simplificada}}{10}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Esquema de controlador para OLTC con LDC \cite {Sarimuthu2016}}}{13}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Esquema del regulador de tensi\IeC {\'o}n}}{14}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Variedad de fuentes fotovoltaicas}}{15}{figure.1.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { Diagrama interno del \ac {SVR} \cite {Oshiro2011a}}}}{15}{figure.1.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Control de caida de tensi\IeC {\'o}n \ac {LDC} basado en \ac {SVR} \cite {Vkdulqj} }}}{15}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Esquema de control b\IeC {\'a}sico de un inversor conectado a una red monof\IeC {\'a}sica (switch en posici\IeC {\'o}n 1) y la operaci\IeC {\'o}n en modo isla (switch en posici\IeC {\'o}n 2). Las caracter\IeC {\'\i }sticas del inversor aparecen en color verde , los elementos de medida en color azul, y los controladores en cascada en color rojo.\cite {Bacha2015}}}{16}{figure.1.5}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

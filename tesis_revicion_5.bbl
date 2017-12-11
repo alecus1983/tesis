@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+
+\bibitem{GSGF2015}
+G.~S. G.~F. GSGF, ``Report power grid electrical energy storage jan 2016,''
+
+\bibitem{Sarimuthu2016}
+C.~R. Sarimuthu, V.~K. Ramachandaramurthy, K.~R. Agileswari, and H.~Mokhlis,
+  ``{A review on voltage control methods using on-load tap changer transformers
+  for networks with renewable energy sources},'' {\em Renew. Sustain. Energy
+  Rev.}, vol.~62, pp.~1154--1161, 2016.
+
+\bibitem{Bacha2015}
+S.~Bacha, D.~Picault, B.~Burger, I.~Etxeberria-Otadui, and J.~Martins,
+  ``{Photovoltaics in microgrids: An overview of grid integration and energy
+  management aspects},'' {\em IEEE Ind. Electron. Mag.}, vol.~9, no.~1,
+  pp.~33--46, 2015.
+
+\bibitem{basso2004ieee}
+T.~S. Basso and R.~DeBlasio, ``Ieee 1547 series of standards: interconnection
+  issues,'' {\em IEEE Transactions on Power Electronics}, vol.~19, no.~5,
+  pp.~1159--1162, 2004.
+
+\bibitem{Bahmanifirouzi2012}
+B.~Bahmanifirouzi, E.~Farjah, T.~Niknam, and E.~{Azad Farsani}, ``{A new hybrid
+  hbmo-sfla algorithm for multi-objective distribution feeder reconfiguration
+  problem considering distributed generator units},'' {\em Iran. J. Sci.
+  Technol. - Trans. Electr. Eng.}, vol.~36, no.~E1, pp.~51--66, 2012.
+
+\bibitem{Hauck2017}
+M.~Hauck, Z.~J. Steinmann, A.~M. Schipper, F.~Gorrissen, A.~Venkatesh, and
+  M.~A. Huijbregts, ``{Estimating the Greenhouse Gas Balance of Individual
+  Gas-Fired and Oil-Fired Electricity Plants on a Global Scale},'' {\em J. Ind.
+  Ecol.}, vol.~21, pp.~127--135, feb 2017.
+
+\bibitem{Calderaro2014}
+V.~Calderaro, G.~Conio, V.~Galdi, G.~Massa, and A.~Piccolo, ``{Active
+  management of renewable energy sources for maximizing power production},''
+  {\em Int. J. Electr. Power Energy Syst.}, vol.~57, pp.~64--72, 2014.
+
+\bibitem{Pegueroles-Queralt2012}
+J.~Pegueroles-Queralt, F.~Bianchi, and O.~Gomis-Bellmunt, {\em {Optimal droop
+  control for voltage source converters in islanded microgrids}}, vol.~8.
+\newblock IFAC, 2012.
+
+\bibitem{Koutsoukis2017}
+N.~C. Koutsoukis, D.~O. Siagkas, P.~S. Georgilakis, and N.~D. Hatziargyriou,
+  ``{Online Reconfiguration of Active Distribution Networks for Maximum
+  Integration of Distributed Generation},'' {\em IEEE Trans. Autom. Sci. Eng.},
+  vol.~14, no.~2, pp.~437--448, 2017.
+
+\bibitem{Othman2016a}
+M.~M. Othman, W.~El-Khattam, Y.~G. Hegazy, and A.~Y. Abdelaziz, ``{Optimal
+  placement and sizing of voltage controlled distributed generators in
+  unbalanced distribution networks using supervised firefly algorithm},'' {\em
+  Int. J. Electr. Power Energy Syst.}, vol.~82, pp.~105--113, 2016.
+
+\bibitem{Mahmud2016}
+N.~Mahmud and A.~Zahedi, ``{Review of control strategies for voltage regulation
+  of the smart distribution network with high penetration of renewable
+  distributed generation},'' {\em Renew. Sustain. Energy Rev.}, vol.~64,
+  pp.~582--595, 2016.
+
+\bibitem{Karanki2014}
+S.~B. Karanki and D.~Xu, ``{Voltage droop control of dual active bridge for
+  integrating battery energy storage to utility gird},'' {\em 2014 IEEE Energy
+  Convers. Congr. Expo. ECCE 2014}, pp.~2227--2232, 2014.
+
+\bibitem{DinakaraPrasadReddy2017}
+P.~{Dinakara Prasad Reddy}, V.~{Veera Reddy}, and T.~{Gowri Manohar},
+  ``{Optimal renewable resources placement in distribution networks by combined
+  power loss index and whale optimization algorithms},'' {\em J. Electr. Syst.
+  Inf. Technol.}, pp.~1--17, 2017.
+
+\bibitem{baggini2008handbook}
+A.~B. Baggini {\em et~al.}, {\em Handbook of power quality}.
+\newblock Wiley Online Library, 2008.
+
+\bibitem{Acha2002a}
+E.~Acha, V.~Agelidis, O.~Anaya-Lara, and T.~Miller, ``{Power Electronic Control
+  in Electrical Systems - CH 2},'' {\em Power Electron. Control Electr. Syst.},
+  pp.~31--81, 2002.
+
+\bibitem{Bisanovic2014}
+S.~Bisanovic, M.~Hajro, and M.~Samardzic, ``{One approach for reactive power
+  control of capacitor banks in distribution and industrial networks},'' {\em
+  Int. J. Electr. Power Energy Syst.}, vol.~60, pp.~67--73, 2014.
+
+\bibitem{Gubina2001}
+A.~F. Gubina, F.~Gubina, and R.~Golob, ``{Intelligent coordinative voltage and
+  reactive power control},'' {\em Int. J. Electr. Power Energy Syst.}, vol.~23,
+  no.~4, pp.~313--321, 2001.
+
+\bibitem{Yadav2014}
+D.~Yadav and T.~Bhatti, ``{Voltage control through reactive power support for
+  WECS based hybrid power system},'' {\em Int. J. Electr. Power Energy Syst.},
+  vol.~62, pp.~507--518, 2014.
+
+\bibitem{Cao2016}
+W.~Cao, J.~Wu, N.~Jenkins, C.~Wang, and T.~Green, ``{Benefits analysis of Soft
+  Open Points for electrical distribution network operation},'' {\em Appl.
+  Energy}, vol.~165, pp.~36--47, 2016.
+
+\bibitem{su2009comparative}
+C.~Su, ``Comparative analysis of voltage control strategies in distribution
+  networks with distributed generation,'' in {\em 2009 IEEE Power \& Energy
+  Society General Meeting}, pp.~1--7, IEEE, 2009.
+
+\bibitem{Tang2017}
+b.~T.~L. Zhiyuan~Tanga, David J.~Hilla, ``Two-stage voltage control of
+  subtransmission networks with high penetration of wind power,''
+
+\bibitem{Akagi2017}
+S.~Akagi, R.~Takahashi, A.~Kaneko, J.~Yoshinaga, M.~Ito, Y.~Hayashi, H.~Asano,
+  and H.~Konda, ``{Upgrading the Voltage Control Method Based on the
+  Photovoltaic Penetration Rate},'' {\em IEEE Trans. Smart Grid}, vol.~3053,
+  no.~c, pp.~1--1, 2017.
+
+\bibitem{Elkhatib2011a}
+M.~E. Elkhatib, R.~El-Shatshat, and M.~M.~A. Salama, ``{Novel coordinated
+  voltage control for smart distribution networks with DG},'' {\em IEEE Trans.
+  Smart Grid}, vol.~2, no.~4, pp.~598--605, 2011.
+
+\bibitem{strbac2002integration}
+G.~Strbac, N.~Jenkins, M.~Hird, P.~Djapic, and G.~Nicholson, ``Integration of
+  operation of embedded generation and distribution networks,'' {\em University
+  of Manchester Institute of Science and Technology (UMIST)}, 2002.
+
+\bibitem{trebolle2012control}
+D.~Trebolle~Trebolle, P.~Fr{\'\i}as~Mar{\'\i}n, M.~Ortega, J.~Mar{\'\i}a, and
+  J.~L. Mart{\'\i}nez~Ramos, ``El control de tensi{\'o}n en redes de
+  distribuci{\'o}n con generaci{\'o}n distribuida (i),'' 2012.
+
+\bibitem{IEC60214}
+IEC, {\em Tap-changers Part 1: Performance requirements and test methods}.
+
+\bibitem{Burger2001a}
+B.~Burger and A.~Engler, ``{Fast Signal Conditioning in Single Phase
+  Systems},'' {\em 9 th Eur. Conf. Power Electron. Appl.}, 2001.
+
+\bibitem{Efkarpidis2016}
+N.~Efkarpidis, T.~{De Rybel}, and J.~Driesen, ``{Technical assessment of
+  centralized and localized voltage control strategies in low voltage
+  networks},'' {\em Sustain. Energy, Grids Networks}, vol.~8, pp.~85--97, 2016.
+
+\bibitem{Bollen2008}
+Y.~Y. M.~H. J.~Bollen and F.~Hassan, ``Integration of distributed generation in
+  the power system - a power quality approach,''
+
+\bibitem{Caldon2015a}
+R.~Caldon, M.~Coppo, and R.~Turri, ``{Distributed active network management
+  strategy including DG and storage systems},'' {\em 2014 AEIT Annu. Conf. -
+  From Res. to Ind. Need a More Eff. Technol. Transf. AEIT 2014}, 2015.
+
+\bibitem{Rylander2016a}
+M.~Rylander, M.~J. Reno, J.~E. Quiroz, F.~Ding, H.~Li, R.~J. Broderick,
+  B.~Mather, and J.~Smith, ``{Methods to determine recommended feeder-wide
+  advanced inverter settings for improving distribution system performance},''
+  {\em Conf. Rec. IEEE Photovolt. Spec. Conf.}, vol.~2016-Novem,
+  pp.~1393--1398, 2016.
+
+\end{thebibliography}
