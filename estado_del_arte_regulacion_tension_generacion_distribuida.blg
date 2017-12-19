@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: estado_del_arte_regulacion_tension_generacion_distribuida.aux
+The style file: ieeetr.bst
+Database file #1: library.bib
+Database file #2: bibliografia_anteproyecto.bib
+Repeated entry---line 15 of file bibliografia_anteproyecto.bib
+ : @article{basso2004ieee
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 37 of file bibliografia_anteproyecto.bib
+ : @inproceedings{su2009comparative
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 88 of file bibliografia_anteproyecto.bib
+ : @article{strbac2002integration
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 257 of file bibliografia_anteproyecto.bib
+ : @article{trebolle2012control
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 276 of file bibliografia_anteproyecto.bib
+ :  
+ :  keyworks  = {Coordinated voltage control,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 286 of file bibliografia_anteproyecto.bib
+ : @article{Bollen2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 294 of file bibliografia_anteproyecto.bib
+ : @book{IEC60214
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 301 of file bibliografia_anteproyecto.bib
+ : @article{GSGF2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Othman2016a"
+Warning--I didn't find a database entry for "Mahmud2016"
+Warning--I didn't find a database entry for "Cao2016"
+Warning--I didn't find a database entry for "Shalwala2011a"
+Warning--empty journal in GSGF2015
+Warning--empty year in GSGF2015
+Warning--can't use both volume and number fields in Pegueroles-Queralt2012
+Too many commas in name 1 of "Zhiyuan Tanga, David J. Hilla,b, Tao Liua" for entry Tang2017
+while executing---line 969 of file ieeetr.bst
+Warning--empty journal in Tang2017
+Warning--empty year in Tang2017
+Warning--empty journal in trebolle2012control
+Warning--empty publisher in IEC60214
+Warning--empty year in IEC60214
+Too many commas in name 1 of "Vandoorn TL, De Kooning JDM, Meersman B, Guerrero JM, Vandevelde L" for entry Vandoorn2013
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Vandoorn TL, De Kooning JDM, Meersman B, Guerrero JM, Vandevelde L" for entry Vandoorn2013
+while executing---line 969 of file ieeetr.bst
+Warning--empty journal in Vandoorn2013
+Warning--empty year in Vandoorn2013
+Warning--empty journal in Bollen2008
+Warning--empty year in Bollen2008
+You've used 37 entries,
+            1876 wiz_defined-function locations,
+            711 strings with 11240 characters,
+and the built_in function-call counts, 10317 in all, are:
+= -- 1006
+> -- 439
+< -- 0
++ -- 161
+- -- 124
+* -- 760
+:= -- 1468
+add.period$ -- 35
+call.type$ -- 37
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 49
+duplicate$ -- 521
+empty$ -- 950
+format.name$ -- 124
+if$ -- 2477
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 40
+newline$ -- 116
+num.names$ -- 37
+pop$ -- 124
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 343
+stack$ -- 0
+substring$ -- 715
+swap$ -- 211
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 12
+while$ -- 112
+width$ -- 39
+write$ -- 345
+(There were 11 error messages)
