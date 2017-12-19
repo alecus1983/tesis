@@ -63,12 +63,6 @@ N.~C. Koutsoukis, D.~O. Siagkas, P.~S. Georgilakis, and N.~D. Hatziargyriou,
   Integration of Distributed Generation},'' {\em IEEE Trans. Autom. Sci. Eng.},
   vol.~14, no.~2, pp.~437--448, 2017.
 
-\bibitem{Mahmud2016}
-N.~Mahmud and A.~Zahedi, ``{Review of control strategies for voltage regulation
-  of the smart distribution network with high penetration of renewable
-  distributed generation},'' {\em Renew. Sustain. Energy Rev.}, vol.~64,
-  pp.~582--595, 2016.
-
 \bibitem{Karanki2014}
 S.~B. Karanki and D.~Xu, ``{Voltage droop control of dual active bridge for
   integrating battery energy storage to utility gird},'' {\em 2014 IEEE Energy
@@ -161,13 +155,6 @@ M.~Oshiro, K.~Tanaka, T.~Senjyu, S.~Toma, A.~Yona, A.~Y. Saber, T.~Funabashi,
 \bibitem{Burger2001a}
 B.~Burger and A.~Engler, ``{Fast Signal Conditioning in Single Phase
   Systems},'' {\em 9 th Eur. Conf. Power Electron. Appl.}, 2001.
-
-\bibitem{McArthur2007}
-S.~D.~J. McArthur, E.~M. Davidson, V.~M. Catterson, A.~L. Dimeas, N.~D.
-  Hatziargyriou, F.~Ponci, and T.~Funabashi, ``{Multi-Agent Systems for Power
-  Engineering Applications; Part I: Concepts, Approaches, and Technical
-  Challenges},'' {\em IEEE Trans. Power Syst.}, vol.~22, no.~4, pp.~1743--1752,
-  2007.
 
 \bibitem{Efkarpidis2016}
 N.~Efkarpidis, T.~{De Rybel}, and J.~Driesen, ``{Technical assessment of
