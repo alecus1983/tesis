@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tesis_version_8.aux
 The style file: ieeetr.bst
@@ -38,7 +38,6 @@ Repeated entry---line 301 of file bibliografia_anteproyecto.bib
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Othman2016a"
-Warning--I didn't find a database entry for "Mahmud2016"
 Warning--I didn't find a database entry for "Cao2016"
 Warning--I didn't find a database entry for "Shalwala2011a"
 Warning--empty journal in GSGF2015
@@ -59,45 +58,45 @@ Warning--empty journal in Vandoorn2013
 Warning--empty year in Vandoorn2013
 Warning--empty journal in Bollen2008
 Warning--empty year in Bollen2008
-You've used 37 entries,
+You've used 39 entries,
             1876 wiz_defined-function locations,
-            711 strings with 11156 characters,
-and the built_in function-call counts, 10317 in all, are:
-= -- 1006
-> -- 439
+            723 strings with 11681 characters,
+and the built_in function-call counts, 11079 in all, are:
+= -- 1086
+> -- 470
 < -- 0
-+ -- 161
-- -- 124
-* -- 760
-:= -- 1468
-add.period$ -- 35
-call.type$ -- 37
-change.case$ -- 34
++ -- 172
+- -- 133
+* -- 817
+:= -- 1571
+add.period$ -- 37
+call.type$ -- 39
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 521
-empty$ -- 950
-format.name$ -- 124
-if$ -- 2477
+cite$ -- 51
+duplicate$ -- 557
+empty$ -- 1013
+format.name$ -- 133
+if$ -- 2662
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 40
-newline$ -- 116
-num.names$ -- 37
-pop$ -- 124
+int.to.str$ -- 39
+missing$ -- 42
+newline$ -- 122
+num.names$ -- 39
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 343
+skip$ -- 375
 stack$ -- 0
-substring$ -- 715
-swap$ -- 211
+substring$ -- 787
+swap$ -- 231
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 12
-while$ -- 112
-width$ -- 39
-write$ -- 345
+while$ -- 120
+width$ -- 41
+write$ -- 366
 (There were 11 error messages)

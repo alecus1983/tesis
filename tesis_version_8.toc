@@ -14,7 +14,8 @@
 \contentsline {subsection}{\numberline {1.2.5}Transformador inteligente (Small Transformer)}{15}{subsection.1.2.5}
 \contentsline {subsection}{\numberline {1.2.6}Convertidores de Potencia}{15}{subsection.1.2.6}
 \contentsline {subsubsection}{Inversores}{15}{section*.22}
-\contentsline {subsection}{\numberline {1.2.7}Conversores back to back}{17}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.7}Conversores back to back}{16}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}Static Var Compesator SVC}{16}{subsection.1.2.8}
 \contentsline {section}{\numberline {1.3}M\IeC {\'E}TODOS DE OPTIMIZACI\IeC {\'O}N}{17}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Algoritmos Gen\IeC {\'e}ticos}{17}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}L\IeC {\'o}gica Difusa}{17}{subsection.1.3.2}
